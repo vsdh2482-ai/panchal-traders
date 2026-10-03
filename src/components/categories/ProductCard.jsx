@@ -20,10 +20,8 @@ const ProductCard = ({ product }) => {
   </div>
 
   <div className="p-5">
-
    <div className="flex items-center justify-between gap-2 mb-4">
-
-    <span className="inline-flex items-center rounded-full bg-orange-50 px-3 py-1 text-xs font-semibold text-orange-600 ring-1 ring-orange-200">
+    <span className="inline-flex items-center rounded-full bg-red-50 px-3 py-1 text-xs font-semibold text-red-600 ring-1 ring-red-200">
       {product.brand}
     </span>
 
@@ -82,7 +80,7 @@ const ProductCard = ({ product }) => {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 rounded-lg bg-orange-500 px-3 py-2 text-[12px] font-semibold text-white transition hover:bg-orange-600"
+              className="flex items-center justify-center gap-2 rounded-lg bg-red-500 px-3 py-2 text-[12px] font-semibold text-white transition hover:bg-red-600"
             >
               <IndianRupee size={17} />
               Get Best Price
@@ -103,7 +101,7 @@ const ProductCard = ({ product }) => {
           {/* Enquiry */}
           <button
             type="button"
-            className="mt-2 flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-[12px] font-semibold text-gray-700 transition hover:border-orange-500 hover:bg-orange-50 hover:text-orange-600"
+            className="mt-2 flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-[12px] font-semibold text-gray-700 transition hover:border-red-500 hover:bg-red-50 hover:text-red-600"
           >
             <Plus size={18} />
             Enquiry

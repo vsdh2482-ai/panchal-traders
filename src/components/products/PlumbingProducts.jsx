@@ -32,7 +32,7 @@ const PlumbingProducts = () => {
             <div className="flex flex-col items-start">
             <Link
               to={product.path}
-              className="text-lg font-semibold text-gray-900 transition-all duration-300 hover:text-orange-600"
+              className="text-lg font-semibold text-gray-900 transition-all duration-300 hover:text-red-600"
             >
               {product.title}
             </Link>
@@ -45,39 +45,39 @@ const PlumbingProducts = () => {
             <p className="mt-2 text-sm text-gray-600">
               {product.description}
             </p>
-            <div className="mt-4 grid grid-cols-2 gap-2">
+          <div className="mt-4 grid grid-cols-2 gap-2">
             <a
               href={'whatsappUrl'}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 rounded-lg bg-orange-500 px-3 py-2.5 text-sm font-semibold text-white transition hover:bg-orange-600"
+              className="flex items-center justify-center gap-2 rounded-lg bg-red-600 px-3 py-2.5 text-sm font-semibold text-white transition hover:bg-red-600"
             >
               <PiCurrencyInrDuotone />
               Get Best Price
             </a>
 
-          {/* WhatsApp */}
-          <a
-            href='https://www.whatsapp.com/'
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 rounded-lg bg-green-500 px-3 py-2.5 text-sm font-semibold text-white transition hover:bg-green-600"
-          >
-            <FaWhatsapp className="text-lg" />
-            WhatsApp
-          </a>
+            {/* WhatsApp */}
+            <a
+              href='https://www.whatsapp.com/'
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 rounded-lg bg-green-500 px-3 py-2.5 text-sm font-semibold text-white transition hover:bg-green-600"
+            >
+              <FaWhatsapp className="text-lg" />
+              WhatsApp
+            </a>
 
-          {/* Enquiry */}
-          <button
-            type="button"
-            className="col-span-2 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2.5 text-sm font-semibold text-gray-700 transition hover:border-[#1c3780] hover:bg-blue-50 hover:text-[#1c3780]"
-            onClick={() => {
-              console.log("Enquiry:", product.title);
-            }}
-          >
-            <MdOutlineQuestionMark />
-            Enquiry
-          </button>
+            {/* Enquiry */}
+            <button
+              type="button"
+              className="col-span-2 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2.5 text-sm font-semibold text-gray-700 transition hover:border-[#1c3780] hover:bg-blue-50 hover:text-[#1c3780]"
+              onClick={() => {
+                console.log("Enquiry:", product.title);
+              }}
+            >
+              <MdOutlineQuestionMark />
+              Enquiry
+            </button>
 
           </div>
           </div>

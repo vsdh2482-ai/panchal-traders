@@ -18,7 +18,7 @@ const categoryIcons = {
   hardware: "H",
 };
 
-const ShopByBrand = () => {
+const ShopByBrand = ({t}) => {
   return (
     <section className="bg-white py-10 sm:py-12">
       <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
@@ -27,22 +27,22 @@ const ShopByBrand = () => {
             <div className="mb-3 flex items-center justify-start gap-3">
                 <span className="h-0.5 w-10 rounded-full bg-red-800"></span>
                 <span className="text-sm font-semibold uppercase tracking-[0.2em] text-red-800">
-                    Trusted Brands
+                    {t.brandsubtitle}
                 </span>
                 <span className="h-0.5 w-10 rounded-full bg-red-800"></span>
            </div>
 
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-              Shop by Brand
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-800 sm:text-3xl">
+             {t.shopByBrand}
             </h2>
 
             <p className="mt-1.5 text-sm text-gray-500">
-              Explore our available brands category by category.
+              {t.brandDescription}
             </p>
           </div>
 
           <p className="text-xs text-gray-400">
-            Ask on WhatsApp for your preferred brand
+           {t.whatsappask}
           </p>
         </div>
 
@@ -57,28 +57,28 @@ const ShopByBrand = () => {
                 {/* Category Header */}
                 <div className="mb-3 flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-orange-100 text-sm font-bold text-orange-600">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-orange-100 text-sm font-semibold text-orange-600">
                       {categoryIcons[category]}
                     </div>
 
                     <div>
                       <h3 className="text-base font-semibold capitalize text-gray-900">
-                        {categoryNames[category] || category}
+                         {t.categoryNames?.[category] || category}
                       </h3>
 
                       <p className="text-[11px] text-gray-400">
-                        {brands.length} brands available
+                        {brands.length} {t.brandsAvailable}
                       </p>
                     </div>
                   </div>
 
                   {/* Category Link */}
-                  <Link
+                 <Link
                     to={`/products?category=${category}`}
                     className="text-xs font-semibold text-orange-500 transition hover:text-orange-700"
                   >
-                    View All →
-                  </Link>
+                    {t.viewAll} →
+                </Link>
                 </div>
 
                 {/* Brands */}

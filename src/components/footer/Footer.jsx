@@ -97,17 +97,7 @@ const Footer = () => {
                   </p>
 
                   {/* Social / Arrow */}
-                  <div className="mt-7 relative z-40">
-                    <a
-                      href="#"
-                      className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition-all duration-300 hover:bg-[#d67a26]"
-                    >
-                      <ArrowUpRight
-                        size={20}
-                        className="transition-transform duration-300 group-hover:rotate-45"
-                      />
-                    </a>
-                  </div>
+                 
                 </div>
 
 
@@ -245,6 +235,17 @@ const Footer = () => {
         <div className='absolute top-0 right-0'>
           <img src={assets.imageFooter2} alt='shape' className='w-full h-auto' />
         </div>
+         <div className="mt-0 relative z-40">
+            <a
+              href="#"
+              className="group inline-flex h-11 w-11 z-20 items-center justify-center rounded-full absolute right-10 bottom-20 bg-white transition-all duration-300 hover:bg-[#d67a26]"
+            >
+              <ArrowUpRight
+                size={20}
+                className="transition-transform duration-300 group-hover:rotate-45"
+              />
+            </a>
+          </div>
     </section>
   )
 }

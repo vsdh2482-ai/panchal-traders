@@ -12,6 +12,7 @@ import Paints from "../pages/Paints";
 import Electrical from '../pages/Electrical'
 import Sanitary from "../pages/Sanitary";
 import Hardware from "../pages/Hardware";
+import ProductDetails from "../pages/ProductDetails";
 const AppRoutes = () => {
   return (
     <Routes>
@@ -26,6 +27,7 @@ const AppRoutes = () => {
         <Route path="/products/electrical" element={<Electrical />}/>
         <Route path="/products/sanitary" element={<Sanitary />}/>
         <Route path="/products/hardware" element={<Hardware />}/>
+        <Route path="/products/:category/:slug" element={<ProductDetails />}/>
       </Route>
     </Routes>
   );

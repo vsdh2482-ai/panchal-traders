@@ -1,19 +1,19 @@
 import React from 'react'
 import {Store, LayersArrowUp, Tag, Handshake } from 'lucide-react'
-const WholeSale = () => {
+const WholeSale = ({t}) => {
   return (
-    <section className='border-b border-b-gray-300'>
-        <div className='w-full max-w-[1440px] mx-auto px-4'>
+    <section className='border-b border-b-gray-300 hidden md:inline-flex'>
+        <div className='w-full max-w-360 mx-auto px-4'>
             <div className='grid gap-6 py-10 sm:grid-cols-2 lg:grid-cols-4'>
                 <div className="flex items-start gap-3">
                   <Store className="w-8 h-8 shrink-0 text-red-800" />
                     <div>
                         <h3 className="text-lg font-medium">
-                        Wholesale & Retail
+                          {t.wholesaleTitle1}
                         </h3>
 
                         <p className="mt-0.5 text-sm text-muted-foreground">
-                        Supply for shopkeepers and contractors as well as walk-in customers.
+                        {t.wholesaleText1}
                         </p>
                     </div>
                 </div>
@@ -21,11 +21,11 @@ const WholeSale = () => {
                   <LayersArrowUp className="w-8 h-8 shrink-0 text-red-800" />
                     <div>
                         <h3 className="text-lg font-medium">
-                        Wide Range
+                        {t.wholesaleTitle2}
                         </h3>
 
                         <p className="mt-0.5 text-sm text-muted-foreground">
-                        Construction and repair material across five categories.
+                        {t.wholesaleText2}
                         </p>
                     </div>
                 </div>
@@ -33,11 +33,11 @@ const WholeSale = () => {
                   <Tag className="w-8 h-8 shrink-0 text-red-800" />
                     <div>
                         <h3 className="text-lg font-medium">
-                        Competitive Pricing
+                        {t.wholesaleTitle3}
                         </h3>
 
                         <p className="mt-0.5 text-sm text-muted-foreground">
-                          Fair rates — ask for the best price on WhatsApp.
+                         {t.wholesaleText3}
                         </p>
                     </div>
                 </div>
@@ -45,11 +45,11 @@ const WholeSale = () => {
                   <Handshake className="w-8 h-8 shrink-0 text-red-800" />
                     <div>
                         <h3 className="text-lg font-medium">
-                        Reliable Service
+                        {t.wholesaleTitle4}
                         </h3>
 
                         <p className="mt-0.5 text-sm text-muted-foreground">
-                        Honest guidance and material made available on time.
+                         {t.wholesaleText4}
                         </p>
                     </div>
                 </div>

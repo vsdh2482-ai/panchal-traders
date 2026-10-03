@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import { assets } from "../../assets/assets";
 import happy from '../../assets/images/smile.png'
-const AboutUs = () => {
+const AboutUs = ({t}) => {
   const pointsLeft = [
     "Quality Products",
     "Trusted Brands",
@@ -21,11 +21,11 @@ const AboutUs = () => {
 
 
   return (
-    <section className="overflow-hidden bg-[#f8fafc] py-16 sm:py-20 lg:py-24">
+    <section className="overflow-hidden bg-[#f8fafc] py-6 sm:py-8 lg:py-24">
       <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
 
         <div className="grid items-center gap-3 lg:grid-cols-2 lg:gap-5">
-          <div className="relative mx-auto w-full max-w-150">
+          <div className="relative mx-auto w-full max-w-150 hidden md:flex">
 
             <div className="grid grid-cols-2 gap-3">
 
@@ -111,25 +111,25 @@ const AboutUs = () => {
             {/* Label */}
             <div className="mb-5 inline-flex rounded-md bg-orange-50 px-4 py-2">
               <span className="text-sm font-semibold text-red-600">
-               About Panchal Traders
+               {t.aboutTitle}
               </span>
             </div>
 
             {/* Heading */}
             <h2 className="max-w-2xl text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl">
-              Your Trusted Partner for Quality
+              {t.aboutHeading}
               <span className="block text-red-600">
-                 Building Materials
+                 {t.aboutHeading1}
               </span>
             </h2>
 
             {/* Description */}
             <p className="mt-6 max-w-2xl text-[15px] leading-7 text-gray-600 sm:text-base">
-              Panchal Traders is a trusted wholesale and retail supplier of <strong> plumbing, paints, electrical, sanitary, and hardware materials in Khetasarai, Jaunpur.</strong> We provide a wide range of quality products to meet the needs of homeowners, contractors, builders, plumbers, electricians, and businesses.
+             {t.aboutText}
             </p>
 
             <p className="mt-3 max-w-2xl text-[15px] leading-7 text-gray-600 sm:text-base">
-              Our aim is to provide <strong> quality products at fair prices with dependable service.</strong> We understand our customers’ needs and offer the right materials with a focus on quality, value, and customer satisfaction.
+              {t.aboutText1}
             </p>
             <div className="mt-7 grid gap-x-8 gap-y-4 sm:grid-cols-2">
 

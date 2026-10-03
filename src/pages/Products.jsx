@@ -79,7 +79,7 @@ const Products = () => {
 
         {/* Header */}
         <div className="mb-4 rounded-xl border border-gray-200 p-4">
-          <p className="mb-2 text-sm font-bold uppercase tracking-[3px] text-orange-500">
+          <p className="mb-2 text-sm font-bold uppercase tracking-[3px] text-red-500">
             Products
           </p>
 
@@ -103,8 +103,8 @@ const Products = () => {
                 onClick={() => handleCategoryChange(item.slug)}
                 className={`flex items-center rounded-full border px-4 py-2 text-center text-[12px] font-semibold transition ${
                   currentCategory === item.slug
-                    ? "border-orange-500 bg-orange-500 text-white shadow-md"
-                    : "border-gray-200 bg-white text-gray-700 hover:border-orange-400 hover:text-orange-500"
+                    ? "border-red-500 bg-red-500 text-white shadow-md"
+                    : "border-gray-200 bg-white text-gray-700 hover:border-red-400 hover:text-red-500"
                 }`}
               >
                 <span>{item.name}</span>
@@ -129,15 +129,15 @@ const Products = () => {
             </span>
           </div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex md:flex-wrap gap-2 overflow-x-auto">
 
             {/* All Brands */}
             <button
               onClick={() => handleBrandChange("all")}
-              className={`rounded-full border px-3 py-2 text-[12px] font-semibold transition ${
+              className={`rounded-full border text-nowrap px-3 py-2 text-[12px] font-semibold transition ${
                 brandFromUrl === "all"
-                  ? "border-orange-500 bg-orange-500 text-white"
-                  : "border-gray-200 bg-white text-gray-700 hover:border-orange-400 hover:text-orange-500"
+                  ? "border-red-500 bg-red-600 text-white"
+                  : "border-gray-200 bg-white text-gray-700 hover:border-red-400 hover:text-red-500"
               }`}
             >
               All Brands
@@ -148,10 +148,10 @@ const Products = () => {
               <button
                 key={brand}
                 onClick={() => handleBrandChange(brand)}
-                className={`cursor-pointer rounded-full border px-3 py-2 text-[12px] font-semibold transition ${
+                className={`cursor-pointer rounded-full text-nowrap border px-3 py-2 text-[12px] font-semibold transition ${
                   brandFromUrl === brand
-                    ? "border-orange-500 bg-orange-500 text-white"
-                    : "border-gray-200 bg-white text-gray-700 hover:border-orange-400 hover:text-orange-500"
+                    ? "border-red-500 bg-red-500 text-white"
+                    : "border-gray-200 bg-white text-gray-700 hover:border-red-400 hover:text-red-500"
                 }`}
               >
                 {brand}
@@ -172,7 +172,7 @@ const Products = () => {
           </div>
         ) : (
           <div className="rounded-2xl bg-white py-20 text-center">
-            <h3 className="text-xl font-bold text-gray-800">
+            <h3 className="text-xl font-semibold text-gray-800">
               No products found
             </h3>
 
