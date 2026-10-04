@@ -561,52 +561,121 @@ export const products = [
   // --------------------
   // ELECTRICAL
   // --------------------
-  {
-    id: 38,
-    name: "Modular Switch",
-    category: "electrical",
-    brand: "Havells",
-    image: "/products/electrical/havells/modular-switch.jpg",
-    url: "/products/electrical/modular-switch",
-    price: "₹180",
-    sizes: ["6A", "10A", "16A", "20A"],
-    description:
-      "Modern modular switch designed for reliable and convenient electrical installations.",
-  },
-  {
-    id: 39,
-    name: "Electrical Wire",
-    category: "electrical",
-    brand: "Polycab",
-    image: "/products/electrical/polycab/wire.jpg",
-    url: "/products/electrical/electrical-wire",
-    price: "₹1,850",
-    sizes: ["1.0 sq mm", "1.5 sq mm", "2.5 sq mm", "4 sq mm", "6 sq mm"],
-    description:
-      "Quality electrical wire suitable for residential and commercial electrical installations.",
-  },
-  {
-    id: 40,
-    name: "Switch",
-    category: "electrical",
-    brand: "Anchor",
-    image: "/products/electrical/anchor/switch.jpg",
-    url: "/products/electrical/switch",
-    price: "₹150",
-    sizes: ["6A", "10A", "16A"],
-    description:
-      "Reliable electrical switch designed for everyday residential and commercial use.",
-  },
+
+{
+  id: 38,
+  name: "Wires & Cables",
+  category: "electrical",
+  brand: "Polycab",
+  image: assets.electrical1,
+  url: "/products/electrical/wires-cables",
+  price: "₹1,850",
+  sizes: ["1.0 sq mm", "1.5 sq mm", "2.5 sq mm", "4 sq mm", "6 sq mm"],
+  description:
+    "High-quality electrical wires and cables suitable for residential and commercial electrical installations.",
+},
+
+{
+  id: 39,
+  name: "Switches & Sockets",
+  category: "electrical",
+  brand: "Anchor",
+   image: assets.electrical2,
+  url: "/products/electrical/switches-sockets",
+  price: "₹150",
+  sizes: ["6A", "10A", "16A", "20A"],
+  description:
+    "Reliable switches and sockets designed for safe, convenient, and durable residential and commercial electrical installations.",
+},
+
+{
+  id: 40,
+  name: "LED Bulbs & LED Lights",
+  category: "electrical",
+  brand: "Havells",
+   image: assets.electrical3,
+  url: "/products/electrical/led-bulbs-lights",
+  price: "₹120",
+  sizes: ["5W", "7W", "9W", "12W", "15W", "20W"],
+  description:
+    "Energy-efficient LED bulbs and lights designed to provide bright and reliable illumination for homes and commercial spaces.",
+},
+
+{
+  id: 41,
+  name: "Ceiling Fans & Exhaust Fans",
+  category: "electrical",
+  brand: "Havells",
+   image: assets.electrical4,
+  url: "/products/electrical/fans",
+  price: "₹1,850",
+  sizes: ["900 mm", "1200 mm", "1400 mm"],
+  description:
+    "Efficient ceiling and exhaust fans designed for comfortable airflow and reliable everyday performance.",
+},
+
+{
+  id: 42,
+  name: "Modular Switches",
+  category: "electrical",
+  brand: "Havells",
+   image: assets.electrical5,
+  url: "/products/electrical/modular-switches",
+  price: "₹180",
+  sizes: ["6A", "10A", "16A", "20A"],
+  description:
+    "Modern modular switches designed for reliable operation and convenient electrical installations.",
+},
+
+{
+  id: 43,
+  name: "MCB, RCCB & Protection Devices",
+  category: "electrical",
+  brand: "Legrand",
+   image: assets.electrical6,
+  url: "/products/electrical/mcb-rccb",
+  price: "₹350",
+  sizes: ["6A", "10A", "16A", "20A", "32A", "40A", "63A"],
+  description:
+    "Electrical protection devices designed to help protect circuits and appliances from overload and electrical faults.",
+},
+
+{
+  id: 44,
+  name: "Distribution Boards",
+  category: "electrical",
+  brand: "Legrand",
+   image: assets.electrical7,
+  url: "/products/electrical/distribution-boards",
+  price: "₹850",
+  sizes: ["4 Way", "6 Way", "8 Way", "12 Way", "16 Way"],
+  description:
+    "Durable distribution boards designed for safe and organized electrical circuit distribution.",
+},
+
+{
+  id: 45,
+  name: "Cable Ties & Lugs",
+  category: "electrical",
+  brand: "Polycab",
+   image: assets.electrical8,
+  url: "/products/electrical/cable-ties-lugs",
+  price: "₹100",
+  sizes: ["2.5 sq mm", "4 sq mm", "6 sq mm", "10 sq mm", "16 sq mm"],
+  description:
+    "Electrical cable ties and lugs suitable for secure cable management and reliable electrical connections.",
+},
+
 
   // --------------------
   // SANITARY
   // --------------------
   {
-    id: 41,
+    id: 46,
     name: "Wash Basin",
     category: "sanitary",
     brand: "Hindware",
-    image: "/products/sanitary/hindware/wash-basin.jpg",
+    image: assets.sanitary1,
     url: "/products/sanitary/wash-basin",
     price: "₹2,850",
     sizes: ["450 mm", "500 mm", "550 mm", "600 mm"],
@@ -614,11 +683,11 @@ export const products = [
       "Stylish wash basin designed for modern bathroom spaces with a practical and elegant finish.",
   },
   {
-    id: 42,
+    id: 47,
     name: "Western Toilet",
     category: "sanitary",
     brand: "Cera",
-    image: "/products/sanitary/cera/toilet.jpg",
+    image: assets.sanitary2,
     url: "/products/sanitary/western-toilet",
     price: "₹6,500",
     sizes: ["Standard", "Compact", "Large"],
@@ -626,11 +695,23 @@ export const products = [
       "Modern western toilet designed for comfortable and hygienic bathroom use.",
   },
   {
-    id: 43,
+    id: 48,
     name: "Bathroom Faucet",
     category: "sanitary",
     brand: "Jaquar",
-    image: "/products/sanitary/jaquar/faucet.jpg",
+    image: assets.sanitary4,
+    url: "/products/sanitary/bathroom-faucet",
+    price: "₹2,450",
+    sizes: ["Standard", "Long Body", "Tall Body"],
+    description:
+      "Modern bathroom faucet designed to provide reliable water flow and an elegant appearance.",
+  },
+  {
+    id: 49,
+    name: "Kitchen Sinks",
+    category: "sanitary",
+    brand: "Jaquar",
+    image: assets.sanitary4,
     url: "/products/sanitary/bathroom-faucet",
     price: "₹2,450",
     sizes: ["Standard", "Long Body", "Tall Body"],
@@ -642,11 +723,11 @@ export const products = [
   // HARDWARE
   // --------------------
   {
-    id: 44,
+    id: 50,
     name: "Door Lock",
     category: "hardware",
     brand: "Godrej",
-    image: "/products/hardware/godrej/door-lock.jpg",
+    image: assets.hardware1,
     url: "/products/hardware/door-lock",
     price: "₹1,250",
     sizes: ["60 mm", "70 mm", "80 mm"],
@@ -654,11 +735,11 @@ export const products = [
       "Durable door lock designed for residential and commercial door security requirements.",
   },
   {
-    id: 45,
+    id: 51,
     name: "Door Fittings",
     category: "hardware",
     brand: "Ozone",
-    image: "/products/hardware/ozone/door-fitting.jpg",
+    image: assets.hardware2,
     url: "/products/hardware/door-fittings",
     price: "₹950",
     sizes: ["Standard", "Small", "Large"],
@@ -666,11 +747,11 @@ export const products = [
       "Quality door fittings designed for smooth operation and a modern door appearance.",
   },
   {
-    id: 46,
+    id: 52,
     name: "Hand Tools",
     category: "hardware",
     brand: "Taparia",
-    image: "/products/hardware/taparia/tools.jpg",
+    image: assets.hardware3,
     url: "/products/hardware/hand-tools-taparia",
     price: "₹750",
     sizes: ["Small", "Medium", "Large"],
@@ -678,11 +759,11 @@ export const products = [
       "Reliable hand tools suitable for household, maintenance and general workshop applications.",
   },
   {
-    id: 47,
-    name: "Hand Tools",
+    id: 53,
+    name: "Screws & Fasteners",
     category: "hardware",
     brand: "Stanley",
-    image: "/products/hardware/stanley/tools.jpg",
+    image: assets.hardware4,
     url: "/products/hardware/hand-tools-stanley",
     price: "₹950",
     sizes: ["Small", "Medium", "Large"],

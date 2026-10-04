@@ -1,8 +1,8 @@
+import { useEffect, useState } from "react";
 import TopBar from "./TopBar";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
-import { useEffect, useState } from "react";
-
+import companyLogo from '../../assets/Panchal-Traders.png'
 const Navbar = () => {
    const [isScrolled, setIsScrolled] = useState(false);
     useEffect(() => {
@@ -26,16 +26,15 @@ const Navbar = () => {
             ? "fixed top-0 shadow-md"
             : "relative"
         }`}>
-        <div className="mx-auto flex h-20 w-full max-w-[1440px] items-center justify-between px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex h-20 w-full max-w-360 items-center justify-between px-4 sm:px-6 lg:px-8">
           {/* Logo + Company Name */}
           <a href="/" className="flex items-center gap-3">
-            {/* PT Logo */}
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-[14px] border-2 border-red-600 bg-[#1c3780] text-xl font-bold text-white shadow-sm">
-              PT
+          
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center text-xl font-bold text-white rounded-full">
+             <img src={companyLogo} className="w-60" alt="Company " />
             </div>
-
-            {/* Company Name */}
             <div>
+             
               <h1 className="text-lg font-extrabold tracking-wide text-[#1c3780] sm:text-xl">
                 PANCHAL TRADERS
               </h1>

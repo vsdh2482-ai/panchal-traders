@@ -6,7 +6,9 @@ import {
 } from "lucide-react";
 import { assets } from "../../assets/assets";
 import happy from '../../assets/images/smile.png'
-const AboutUs = ({t}) => {
+
+const AboutUs = () => {
+ 
   const pointsLeft = [
     "Quality Products",
     "Trusted Brands",
@@ -21,7 +23,7 @@ const AboutUs = ({t}) => {
 
 
   return (
-    <section className="overflow-hidden bg-[#f8fafc] py-6 sm:py-8 lg:py-24">
+    <section className="overflow-hidden bg-[#f8fafc] py-6 sm:py-8 lg:py-10">
       <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
 
         <div className="grid items-center gap-3 lg:grid-cols-2 lg:gap-5">
@@ -111,26 +113,26 @@ const AboutUs = ({t}) => {
             {/* Label */}
             <div className="mb-5 inline-flex rounded-md bg-orange-50 px-4 py-2">
               <span className="text-sm font-semibold text-red-600">
-               {t.aboutTitle}
+               About Panchal Traders
               </span>
             </div>
 
             {/* Heading */}
             <h2 className="max-w-2xl text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl">
-              {t.aboutHeading}
+               Your Trusted Partner for Quality 
               <span className="block text-red-600">
-                 {t.aboutHeading1}
+                Building Materials
               </span>
             </h2>
 
             {/* Description */}
             <p className="mt-6 max-w-2xl text-[15px] leading-7 text-gray-600 sm:text-base">
-             {t.aboutText}
+            Panchal Traders is a trusted wholesale and retail supplier of plumbing, paints, electrical, sanitary, and hardware materials in Khetasarai, Jaunpur. We provide a wide range of quality products to meet the needs of homeowners, contractors, builders, plumbers, electricians, and businesses.
             </p>
 
-            <p className="mt-3 max-w-2xl text-[15px] leading-7 text-gray-600 sm:text-base">
-              {t.aboutText1}
-            </p>
+            {/* <p className="mt-3 max-w-2xl text-[15px] leading-7 text-gray-600 sm:text-base">
+              {aboutText1}
+            </p> */}
             <div className="mt-7 grid gap-x-8 gap-y-4 sm:grid-cols-2">
 
               {/* Left */}

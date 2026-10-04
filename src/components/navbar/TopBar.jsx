@@ -1,7 +1,7 @@
 import { MapPin, Phone, Languages } from "lucide-react";
 import { useState } from "react";
 import { useLanguage } from "../../context/LanguageContext";
-
+import { FaWhatsapp } from "react-icons/fa6";
 
 
 const TopBar = () => {
@@ -23,11 +23,13 @@ const TopBar = () => {
         {/* Contact + Language */}
         <div className="hidden shrink-0 items-center gap-5 lg:flex">
           <a
-            href="tel:8810580045"
+             href="https://wa.me/918810580045"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 transition hover:text-yellow-300"
           >
-            <Phone size={15} />
-            8810580045
+            <FaWhatsapp size={22} />
+            +91 8810 5800 45
           </a>
 
           <a
@@ -35,7 +37,7 @@ const TopBar = () => {
             className="flex items-center gap-2 transition hover:text-yellow-300"
           >
             <Phone size={15} />
-            6390080551
+            +91 6390 0805 51
           </a>
 
         <div className="flex items-center gap-1 rounded-full border border-white/30 p-0.5">

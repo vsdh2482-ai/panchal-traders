@@ -1,4 +1,4 @@
-// import logo from "./images/logo.png";
+//  import CompanyLogo from "./images/Panchal-Traders.png";
 // import heroImage from "./images/hero.jpg";
 import aboutImage from "./images/aboutus.jpg";
 import electronic from './images/category/cat-electrical-CsQFzspe.jpg';
@@ -58,8 +58,31 @@ import nerolacPaint17 from './images/products/nerolac/Cement-Primer.jpg'
 import nerolacPaint18 from './images/products/nerolac/Water-Thinnable-Cement-Primer.jpg'
 import nerolacPaint19 from './images/products/nerolac/Exterior-Primer.jpg'
 import nerolacPaint20 from './images/products/nerolac/Wood-Primer-Pink.jpg'
+
+// Electric
+
+import electrical1 from '../assets/images/products/electrical/Wires--Cables.jpg'
+import electrical2 from '../assets/images/products/electrical/SwitchesSockets.jpg'
+import electrical3 from '../assets/images/products/electrical/LED-Bulbs-LED-Lights.jpg'
+import electrical4 from '../assets/images/products/electrical/fan.jpg'
+import electrical5 from '../assets/images/products/electrical/Modular-Switches.jpg'
+import electrical6 from '../assets/images/products/electrical/MCBRCCB.jpg'
+import electrical7 from '../assets/images/products/electrical/Distribution-Boards.jpg'
+import electrical8 from '../assets/images/products/electrical/Cable-Ties-Lugs.jpg'
+
+
+import sanitary1 from '../assets/images/products/sanitary/Wash-Basin.jpg';
+import sanitary2 from '../assets/images/products/sanitary/Western-Toilet.jpg';
+import sanitary3 from '../assets/images/products/sanitary/Bathroom-Faucet.jpg';
+import sanitary4 from '../assets/images/products/sanitary/Kitchen-Sinks.jpg';
+
+import hardware1 from '../assets/images/products/hardware/Door-Lock.jpg';
+import hardware2 from '../assets/images/products/hardware/Door-Fittings.jpg';
+import hardware3 from '../assets/images/products/hardware/Hand-Tools.jpg';
+import hardware4 from '../assets/images/products/hardware/Screws-&-Fasteners.jpg';
+
 export const assets = {
-  // logo,
+  // CompanyLogo,
   // heroImage,
   aboutImage,
   electronic,
@@ -115,5 +138,25 @@ export const assets = {
   nerolacPaint18,
   nerolacPaint19,
   nerolacPaint20,
+
+  electrical1,
+  electrical2,
+  electrical3,
+  electrical4,
+  electrical5,
+  electrical6,
+  electrical7,
+  electrical8,
+
+  sanitary1,
+  sanitary2,
+  sanitary3,
+  sanitary4,
+
+  hardware1,
+  hardware2,
+  hardware3,
+  hardware4,
+
 };
 

@@ -1,11 +1,11 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { ClipboardList, MessageCircle } from "lucide-react";
 
 const navItems = [
   { label: "Home", path: "/" },
   { label: "Products", path: "/products" },
   { label: "Wholesale", path: "/wholesale" },
-  { label: "About", path: "/about" },
+  { label: "About", path: "/our-company" },
   { label: "Contact", path: "/contact" },
 ];
 
@@ -31,14 +31,10 @@ const DesktopMenu = () => {
         ))}
       </nav>
 
-      <button className="relative flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-4 py-2.5 text-sm font-semibold text-[#171d2d] shadow-sm transition hover:border-[#1c3780] hover:shadow-md">
+      <Link to={'/contact'} className="relative flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-4 py-2.5 text-sm font-semibold text-[#171d2d] shadow-sm transition hover:border-[#1c3780] hover:shadow-md">
         <ClipboardList size={19} />
         <span>Enquiry</span>
-
-        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#d71929] text-xs font-bold text-white">
-          1
-        </span>
-      </button>
+      </Link>
 
       <a
         href="https://wa.me/918810580045"

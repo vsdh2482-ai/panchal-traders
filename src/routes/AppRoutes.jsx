@@ -5,7 +5,6 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import Products from "../pages/Products";
 import Wholesale from "../pages/Wholesale";
-import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Plumbing from '../pages/Plumbing'
 import Paints from "../pages/Paints";
@@ -13,6 +12,8 @@ import Electrical from '../pages/Electrical'
 import Sanitary from "../pages/Sanitary";
 import Hardware from "../pages/Hardware";
 import ProductDetails from "../pages/ProductDetails";
+import OurCompany from "../pages/OurCompany";
+
 const AppRoutes = () => {
   return (
     <Routes>
@@ -20,7 +21,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/wholesale" element={<Wholesale />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/our-company" element={<OurCompany/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products/plumbing" element={<Plumbing />}/>
         <Route path="/products/paints" element={<Paints/>}/>

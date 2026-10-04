@@ -83,8 +83,8 @@ const translations = {
     // ABOUT
     // =========================
     aboutTitle: "About Panchal Traders",
-    aboutHeading:"Your Trusted Partner for Quality",
-    aboutHeading1:"Building Materials",
+    aboutHeading:"Your Trusted Partner for Quality Building Materials",
+    
     
     aboutText:
       "Panchal Traders is a trusted wholesale and retail supplier of plumbing, paints, electrical, sanitary, and hardware materials in Khetasarai, Jaunpur. We provide a wide range of quality products to meet the needs of homeowners, contractors, builders, plumbers, electricians, and businesses.",
@@ -145,7 +145,7 @@ const translations = {
     // =========================
     // HERO
     // =========================
-    mainTitle:"पंचाल ट्रेडर्स",
+    mainTitle:"पांचाल ट्रेडर्स",
     view: "प्रोडक्ट्स देखें",
     whatsapp:"WhatsApp पर पूछें",
     callNow:'अब कॉल करें',
@@ -213,6 +213,7 @@ const translations = {
     // =========================
     aboutTitle: "पंचाल ट्रेडर्स के बारे में",
     aboutHeading:"गुणवत्ता के लिए आपका विश्वसनीय भागीदार भवन निर्माण सामग्री",
+  
     aboutText:"पंचाल ट्रेडर्स, खेतासराय (जौनपुर) में प्लंबिंग, पेंट, इलेक्ट्रिकल, सैनिटरी और हार्डवेयर के सामान का एक भरोसेमंद होलसेल और रिटेल सप्लायर है। हम घर के मालिकों, कॉन्ट्रैक्टरों, बिल्डरों, प्लंबरों, इलेक्ट्रीशियनों और व्यवसायों की ज़रूरतों को पूरा करने के लिए कई तरह के बेहतरीन क्वालिटी वाले प्रोडक्ट उपलब्ध कराते हैं।",
 
     aboutText2:
