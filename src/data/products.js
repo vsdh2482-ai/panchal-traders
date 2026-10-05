@@ -30,14 +30,11 @@ export const categories = [
     // hindi: "हार्डवेयर",
     slug: "hardware",
   },
-<<<<<<< HEAD
   {
     name: "Home Appliances",
     // hindi: "हार्डवेयर",
     slug: "appliances",
   },
-=======
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 ];
 
 export const categoryBrands = {
@@ -81,13 +78,10 @@ export const categoryBrands = {
     "Taparia",
     "Stanley",
   ],
-<<<<<<< HEAD
   appliances:[
     "Bajaj",
     "Usha",
   ]
-=======
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 };
 
 export const products = [
@@ -785,7 +779,6 @@ export const products = [
     description:
       "Professional-quality hand tools suitable for maintenance, repair and workshop applications.",
   },
-<<<<<<< HEAD
 
   {
   id: 54,
@@ -851,6 +844,4 @@ export const products = [
   description:
     "Compact and efficient table fan providing powerful airflow for home, office and everyday use.",
 },
-=======
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 ];

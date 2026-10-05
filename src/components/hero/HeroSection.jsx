@@ -2,11 +2,7 @@ import { ArrowRight, MessageCircle, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import heroBg from "../../assets/images/hero-shop-BVaPkhuU.jpg";
-<<<<<<< HEAD
 import heroProduct from "../../assets/images/panchal-traders-banner.png";
-=======
-import heroProduct from "../../assets/images/hero-shop-BVaPkhuU.jpg";
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
 const HeroSection = ({t}) => {
   return (

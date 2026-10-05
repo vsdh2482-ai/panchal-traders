@@ -69,21 +69,13 @@ Message:
 
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="max-w-3xl">
-<<<<<<< HEAD
             <span className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white">
-=======
-            <span className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-[#f5bd32]">
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
               Contact Panchal Traders
             </span>
 
             <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-5xl">
               Let&apos;s Talk About Your
-<<<<<<< HEAD
               <span className="block text-[#e7000b]">
-=======
-              <span className="block text-[#f5bd32]">
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                 Material Requirements
               </span>
             </h1>
@@ -146,11 +138,7 @@ Message:
 
                 {/* Phone */}
                 <div className="group flex gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-<<<<<<< HEAD
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#e7000b] text-white">
-=======
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#f5bd32] text-[#172f72]">
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     <Phone size={22} />
                   </div>
 
@@ -202,28 +190,17 @@ Message:
                     </h3>
 
                     <a
-<<<<<<< HEAD
                       href="mailto:thepanchaltraders@gmail.com"
                       className="mt-1 block text-sm text-slate-600 hover:text-[#172f72]"
                     >
                       thepanchaltraders@gmail.com
-=======
-                      href="mailto:info@panchaltraders.com"
-                      className="mt-1 block text-sm text-slate-600 hover:text-[#172f72]"
-                    >
-                      info@panchaltraders.com
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     </a>
                   </div>
                 </div>
 
                 {/* Timing */}
                 <div className="group flex gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-<<<<<<< HEAD
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#e7000b] text-white">
-=======
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#f5bd32] text-[#172f72]">
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     <Clock size={22} />
                   </div>
 
@@ -233,11 +210,7 @@ Message:
                     </h3>
 
                     <p className="mt-1 text-sm leading-6 text-slate-600">
-<<<<<<< HEAD
                       Monday – Sunday
-=======
-                      Monday – Saturday
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                       <br />
                       9:00 AM – 8:00 PM
                     </p>
@@ -348,10 +321,7 @@ Message:
                       <option value="Electrical">Electrical</option>
                       <option value="Sanitary">Sanitary</option>
                       <option value="Hardware">Hardware</option>
-<<<<<<< HEAD
                       <option value="HomeAppliances">Home Appliances</option>
-=======
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     </select>
                   </div>
 
@@ -375,11 +345,7 @@ Message:
                   {/* Submit */}
                   <button
                     type="submit"
-<<<<<<< HEAD
                     className="group cursor-pointer flex w-full items-center justify-center gap-3 rounded-xl bg-[#172f72] px-6 py-4 font-semibold text-white transition hover:bg-[#10245a] hover:shadow-lg"
-=======
-                    className="group flex w-full items-center justify-center gap-3 rounded-xl bg-[#172f72] px-6 py-4 font-semibold text-white transition hover:bg-[#10245a] hover:shadow-lg"
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                   >
                     Send Enquiry on WhatsApp
                     <Send
@@ -423,17 +389,10 @@ Message:
               </div>
 
               <a
-<<<<<<< HEAD
                 href="https://maps.app.goo.gl/d214pKoCMaG2kj5V6"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#e7000b] px-5 py-3 font-semibold text-white transition hover:bg-[#805b04]"
-=======
-                href="https://www.google.com/maps/search/?api=1&query=Panchal+Traders+Khetasarai+Jaunpur"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#f5bd32] px-5 py-3 font-semibold text-[#172f72] transition hover:bg-[#e9ad20]"
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
               >
                 <MapPin size={18} />
                 Open in Google Maps
@@ -441,7 +400,6 @@ Message:
 
             </div>
 
-<<<<<<< HEAD
            <div className="h-87 w-full overflow-hidden rounded-2xl md:h-90 lg:h-100">
             <iframe
               src="https://www.google.com/maps?q=25.9789644,82.682047&z=17&output=embed"
@@ -452,17 +410,6 @@ Message:
               title="Panchal Traders Location"
             />
           </div>
-=======
-            <div className="h-[350px] bg-slate-200">
-              <iframe
-                title="Panchal Traders Location"
-                src="https://www.google.com/maps?q=Khetasarai,+Jaunpur,+Uttar+Pradesh&output=embed"
-                className="h-full w-full border-0"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
           </div>
 
@@ -486,11 +433,7 @@ Message:
             href="https://wa.me/918810580045"
             target="_blank"
             rel="noreferrer"
-<<<<<<< HEAD
             className="mt-7 inline-flex items-center gap-2 rounded-xl bg-[#e7000b] px-7 py-3.5 font-bold text-white transition hover:bg-[#b0030b] hover:shadow-lg"
-=======
-            className="mt-7 inline-flex items-center gap-2 rounded-xl bg-[#f5bd32] px-7 py-3.5 font-bold text-[#172f72] transition hover:bg-[#e9ad20] hover:shadow-lg"
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
           >
             <MessageCircle size={20} />
             Chat on WhatsApp

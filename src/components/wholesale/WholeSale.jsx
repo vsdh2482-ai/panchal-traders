@@ -2,11 +2,7 @@ import React from 'react'
 import {Store, LayersArrowUp, Tag, Handshake } from 'lucide-react'
 const WholeSale = ({t}) => {
   return (
-<<<<<<< HEAD
     <section className='border-b border-b-gray-300 hidden md:flex'>
-=======
-    <section className='border-b border-b-gray-300 hidden md:inline-flex'>
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
         <div className='w-full max-w-360 mx-auto px-4'>
             <div className='grid gap-6 py-10 sm:grid-cols-2 lg:grid-cols-4'>
                 <div className="flex items-start gap-3">
@@ -63,4 +59,4 @@ const WholeSale = ({t}) => {
   )
 }
 
-export default WholeSale
+export default WholeSale 

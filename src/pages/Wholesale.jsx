@@ -23,10 +23,7 @@ import paints from "../assets/images/category/whole-paint.jpg";
 import electrical from "../assets/images/category/whole-electrical.jpg";
 import snatry from "../assets/images/category/snatry.jpg";
 import wholehard from "../assets/images/category/whole-hard.jpg";
-<<<<<<< HEAD
 import applianance from "../assets/images/category/HomeAppliances.jpg";
-=======
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
 const Wholesale = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -153,7 +150,6 @@ const Wholesale = () => {
         "Hardware Accessories",
       ],
     },
-<<<<<<< HEAD
     {
       name: "Home Appliances",
       slug: "appliances",
@@ -176,8 +172,6 @@ const Wholesale = () => {
         "Kitchen Appliances",
       ],
     },
-=======
->>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
   ];
 
   // --------------------------------------------------
