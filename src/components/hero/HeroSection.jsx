@@ -1,7 +1,6 @@
 import { ArrowRight, MessageCircle, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import heroBg from "../../assets/images/hero-shop-BVaPkhuU.jpg";
 import heroProduct from "../../assets/images/panchal-traders-banner.png";
 
 const HeroSection = ({t}) => {
@@ -10,15 +9,7 @@ const HeroSection = ({t}) => {
     <section className="relative min-h-[calc(100vh-128px)] overflow-hidden" style={{
         backgroundImage:`url(${heroProduct})`
     }}>
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-        }}
-      />
-
-      {/* Blue Overlay */}
+     
       <div className="absolute inset-0 bg-[#0d2b68]/30" />
 
       {/* Gradient Overlay */}
