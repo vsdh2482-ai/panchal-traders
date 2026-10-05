@@ -2,7 +2,7 @@
 import { ArrowRight, MessageCircle, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import heroProduct from "../../assets/images/panchal-traders-banner.png";
+import heroProduct from "../../assets/images/panchaltradersBanner.jpg";
 
 const HeroSection = ({ t }) => {
   return (
@@ -21,7 +21,7 @@ const HeroSection = ({ t }) => {
       <div className="absolute inset-0 bg-linear-to-r from-[#0b2b69]/95 via-[#123879]/85 to-[#163d7c]/70" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-128px)] w-full max-w-[1440px] items-center px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-128px)] w-full max-w-360 items-center px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="grid w-full grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-16">
 
           {/* LEFT CONTENT */}
