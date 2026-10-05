@@ -13,7 +13,10 @@ import Sanitary from "../pages/Sanitary";
 import Hardware from "../pages/Hardware";
 import ProductDetails from "../pages/ProductDetails";
 import OurCompany from "../pages/OurCompany";
+<<<<<<< HEAD
 import HomeAppliances from "../pages/HomeAppliances";
+=======
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
 const AppRoutes = () => {
   return (
@@ -29,7 +32,10 @@ const AppRoutes = () => {
         <Route path="/products/electrical" element={<Electrical />}/>
         <Route path="/products/sanitary" element={<Sanitary />}/>
         <Route path="/products/hardware" element={<Hardware />}/>
+<<<<<<< HEAD
         <Route path="/products/appliances" element={<HomeAppliances/>} />
+=======
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
         <Route path="/products/:category/:slug" element={<ProductDetails />}/>
       </Route>
     </Routes>

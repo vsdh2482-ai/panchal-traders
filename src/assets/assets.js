@@ -7,13 +7,21 @@ import hardware from './images/category/cat-hardware-Cd0XWCa2.jpg';
 import paints from './images/category/cat-paints-DudLSNxg.jpg';
 import plumbing from './images/category/cat-plumbing-4Pz2eM3R.jpg';
 import sanitary from './images/category/cat-sanitary-CXLiK4GH.jpg';
+<<<<<<< HEAD
 import HomeAppliances from './images/category/HomeAppliances.jpg'
+=======
+
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 import imageFooter1 from './images/footer-3.svg';
 import imageFooter2 from './images/footer-4.svg'; 
 import categoryBg from './images/testimonial-bg.jpg'
 import bgImage from './images/about-bg-1.png'
 import additional from './images/additional_img01.png'
+<<<<<<< HEAD
 import dropBbg from './images/drop-bg.png'
+=======
+import dropBbg from './images/drop-bg.webp'
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
 // Plumbing
 import cpvcimg1 from './images/products/jindal/CPVC-Pipe.jpg'
@@ -81,6 +89,7 @@ import hardware2 from '../assets/images/products/hardware/Door-Fittings.jpg';
 import hardware3 from '../assets/images/products/hardware/Hand-Tools.jpg';
 import hardware4 from '../assets/images/products/hardware/Screws-&-Fasteners.jpg';
 
+<<<<<<< HEAD
 
 import applianance1 from '../assets/images/products/home/Mixer-Grinder.png';
 import applianance2 from '../assets/images/products/home/Electric-Kettle.png';
@@ -93,6 +102,11 @@ export const assets = {
   // CompanyLogo,
   // heroImage,
   HomeAppliances,
+=======
+export const assets = {
+  // CompanyLogo,
+  // heroImage,
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
   aboutImage,
   electronic,
   hardware,
@@ -166,11 +180,14 @@ export const assets = {
   hardware2,
   hardware3,
   hardware4,
+<<<<<<< HEAD
   applianance1,
   applianance2,
   applianance3,
   applianance4,
   applianance5,
+=======
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
 };
 

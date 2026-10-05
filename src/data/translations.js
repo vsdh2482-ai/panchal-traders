@@ -52,14 +52,21 @@ const translations = {
     categoryTitle2: "Paints",
     categoryTitle3: "Electrical",
     categoryTitle4: "Sanitary",
+<<<<<<< HEAD
     categoryTitle5: "Hardware Tools",
     categoryTitle6: "Home Appliances",
+=======
+    categoryTitle5: "Hardware",
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
     categoryParagraph1:"UPVC, CPVC and GI pipes, fittings, valves, tank fittings and taps.",
     categoryParagraph2:"Wall paint, primer, putty, enamel, distemper and painting tools.",
     categoryParagraph3:"Wires, cables, switches, sockets, MCBs, DB boxes and LED lights.",
     categoryParagraph4:"Wash basins, toilets, showers, CP fittings and bathroom accessories.",
     categoryParagraph5:"Door hardware, handles, hinges, tower bolts, screws, tools and adhesives.",
+<<<<<<< HEAD
     categoryParagraph6:"Fans, mixer grinders, electric kettles, room heaters and other essential home appliances.",
+=======
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
     // =========================
     // BRAND
@@ -183,13 +190,19 @@ const translations = {
     categoryTitle3: "विद्युतीय",
     categoryTitle4: "सैनिटरी",
     categoryTitle5: "हार्डवेयर",
+<<<<<<< HEAD
      categoryTitle6: "घरेलू उपकरण",
+=======
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
     categoryParagraph1:"UPVC, CPVC और GI पाइप, फिटिंग, वॉल्व, टैंक फिटिंग और नल।",
     categoryParagraph2:"दीवार का पेंट, प्राइमर, पुट्टी, इनेमल, डिस्टेंपर और पेंटिंग के औज़ार।",
     categoryParagraph3:"तार, केबल, स्विच, सॉकेट, MCB, DB बॉक्स और LED लाइटें।",
     categoryParagraph4:"वॉश बेसिन, टॉयलेट, शॉवर, CP फिटिंग और बाथरूम एक्सेसरीज़।",
     categoryParagraph5:"दरवाज़े का हार्डवेयर, हैंडल, कब्ज़े, टॉवर बोल्ट, स्क्रू, औज़ार और एडहेसिव।",
+<<<<<<< HEAD
     categoryParagraph6:"पंखे, मिक्सर ग्राइंडर, इलेक्ट्रिक केतली, रूम हीटर और घर के अन्य ज़रूरी उपकरण।",
+=======
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
    
     // =========================
     // BRAND

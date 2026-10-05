@@ -1,6 +1,7 @@
 import React from 'react'
 import {MapPinCheckInside, MessagesSquare, PhoneCall, Mail,  MapPin,
   ArrowUpRight, } from 'lucide-react'
+<<<<<<< HEAD
   import { FaWhatsapp } from "react-icons/fa6";
 import {assets} from '../../assets/assets'
 import { Link } from 'react-router-dom';
@@ -9,23 +10,42 @@ import { BiLogoFacebook } from "react-icons/bi";
 import { FaInstagram } from "react-icons/fa";
 import { LuYoutube } from "react-icons/lu";
 import googleReview from '../../assets/Google-Review-Symbol.png'
+=======
+import {assets} from '../../assets/assets'
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 const Footer = () => {
   return (
     <section className='bg-blue-950 pt-10 xl:pt-15 relative overflow-hidden'>
         <div className='w-full max-w-360 mx-auto px-4'>
+<<<<<<< HEAD
             <div className="hidden md:grid grid-cols-1 lg:grid-cols-3 gap-5">
+=======
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
               <div className='flex items-center'>
                 <div className="flex items-center gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[50%_50%_50%_0] bg-[#d67a26]">
                     <Mail size={19} className="text-white" />
                   </div>
 
+<<<<<<< HEAD
                   <div className="border-l border-white/10 pl-2">
                     <a
                       href="mailto:thepanchaltraders@gmail.com"
                       className="text-md font-semibold tracking-wide text-white transition-colors duration-300 hover:text-[#d67a26] sm:text-md"
                     >
                      thepanchaltraders@gmail.com
+=======
+                  <div className="border-l border-white/10 pl-5">
+                    <span className="mb-1 block text-xs font-medium uppercase tracking-[0.18em] text-[#d67a26]">
+                      E-mail Us:
+                    </span>
+                    <a
+                      href="tel:+918810580045"
+                      className="text-lg font-semibold tracking-wide text-white transition-colors duration-300 hover:text-[#d67a26] sm:text-2xl"
+                    >
+                     bineshkumar@gmail.com
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     </a>
                   </div>
                 </div>
@@ -34,17 +54,30 @@ const Footer = () => {
               <div className='flex items-center'>
                 <div className="flex items-center gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[50%_50%_50%_0] bg-[#d67a26]">
+<<<<<<< HEAD
                     <FaWhatsapp size={19} className="text-white" />
                   </div>
 
                   <div className="border-l border-white/10 pl-3">
                     <span className="mb-1 block text-xs font-medium uppercase tracking-[0.18em] text-[#d67a26]">
                      WhatsApp
+=======
+                    <PhoneCall size={19} className="text-white" />
+                  </div>
+
+                  <div className="border-l border-white/10 pl-5">
+                    <span className="mb-1 block text-xs font-medium uppercase tracking-[0.18em] text-[#d67a26]">
+                     Requesting A Call
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     </span>
 
                     <a
                       href="tel:+918810580045"
+<<<<<<< HEAD
                       className="text-lg font-semibold tracking-wide text-white transition-colors duration-300 hover:text-[#d67a26] sm:text-md"
+=======
+                      className="text-lg font-semibold tracking-wide text-white transition-colors duration-300 hover:text-[#d67a26] sm:text-2xl"
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     >
                       +91 88105 80045
                     </a>
@@ -58,9 +91,19 @@ const Footer = () => {
                   </div>
 
                   <div className="border-l border-white/10 pl-5">
+<<<<<<< HEAD
                     <a
                       href="tel:+918810580045"
                       className="text-md font-semibold tracking-wide text-white transition-colors duration-300 hover:text-[#d67a26] sm:text-md"
+=======
+                    <span className="mb-1 block text-xs font-medium uppercase tracking-[0.18em] text-[#d67a26]">
+                     Location Here
+                    </span>
+
+                    <a
+                      href="tel:+918810580045"
+                      className="text-md font-semibold tracking-wide text-white transition-colors duration-300 hover:text-[#d67a26] sm:text-2xl"
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     >
                       +91 6390 0805 51
                     </a>
@@ -68,15 +111,25 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+<<<<<<< HEAD
             <div className="mx-auto max-w-360 py-0 md:py-16">
+=======
+            <div className="mx-auto max-w-360 py-16">
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
               <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr_1.2fr]">
 
                 {/* Company */}
                 <div>
+<<<<<<< HEAD
                   <Link to={"/"} className="mb-6 inline-flex items-center gap-3">
                     <div className="flex h-14 w-14 items-center justify-center rounded-full text-xl font-bold shadow-lg">
                       <img src={footerLogo} alt="Panchal Traders" className='w-30 h-auto' />
+=======
+                  <a href="/" className="mb-6 inline-flex items-center gap-3">
+                    <div className="flex h-14 w-14 items-center justify-center rounded-xl border-2 border-red-600 bg-gray-200 text-xl font-bold shadow-lg">
+                      PT
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     </div>
 
                     <div>
@@ -88,7 +141,11 @@ const Footer = () => {
                         पांचाल ट्रेडर्स
                       </p>
                     </div>
+<<<<<<< HEAD
                   </Link>
+=======
+                  </a>
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
                   <p className="max-w-md text-sm leading-7 text-gray-400">
                     Bharti Vidyapeeth, Dobhi Mor,
@@ -97,6 +154,7 @@ const Footer = () => {
                   </p>
 
                   {/* Social / Arrow */}
+<<<<<<< HEAD
                  <div className="mt-4 flex items-center gap-3">
                     {/* Facebook */}
                     <a
@@ -189,6 +247,9 @@ const Footer = () => {
                       </span>
                     </a>
                   </div>
+=======
+                 
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                 </div>
 
 
@@ -198,6 +259,7 @@ const Footer = () => {
                     Quick Links
                   </h3>
 
+<<<<<<< HEAD
                   <div className="h-1 w-10 bg-[#e7000b]" />
 
                   <ul className="mt-6 space-y-1">
@@ -235,6 +297,45 @@ const Footer = () => {
                       >
                         Contact Us
                       </Link>
+=======
+                  <div className="h-1 w-10 bg-[#d67a26]" />
+
+                  <ul className="mt-6 space-y-1">
+                    <li>
+                      <a
+                        href="#"
+                        className="text-sm text-gray-400 transition-colors hover:text-[#d67a26]"
+                      >
+                        Home
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="#"
+                        className="text-sm text-gray-400 transition-colors hover:text-[#d67a26]"
+                      >
+                        About Us
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="#"
+                        className="text-sm text-gray-400 transition-colors hover:text-[#d67a26]"
+                      >
+                        Products
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="#"
+                        className="text-sm text-gray-400 transition-colors hover:text-[#d67a26]"
+                      >
+                        Contact Us
+                      </a>
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                     </li>
                   </ul>
                 </div>
@@ -246,14 +347,22 @@ const Footer = () => {
                     Contact Us
                   </h3>
 
+<<<<<<< HEAD
                   <div className="h-1 w-10 bg-[#e7000b]" />
+=======
+                  <div className="h-1 w-10 bg-[#d67a26]" />
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
                   <div className="mt-6 space-y-6">
 
                     
                     {/* Address */}
                     <div className="flex items-start gap-4">
+<<<<<<< HEAD
                       <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#e7000b]">
+=======
+                      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#d67a26]">
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                         <MapPin size={18} className="text-white" />
                       </span>
 
@@ -276,7 +385,11 @@ const Footer = () => {
                       href="mailto:info@example.com"
                       className="group flex items-center gap-4"
                     >
+<<<<<<< HEAD
                       <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#e7000b] transition-all duration-300 group-hover:bg-white">
+=======
+                      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#d67a26] transition-all duration-300 group-hover:bg-white">
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                         <Mail
                           size={18}
                           className="text-white transition-colors group-hover:text-[#1c3780]"
@@ -288,8 +401,13 @@ const Footer = () => {
                           Email Us
                         </span>
 
+<<<<<<< HEAD
                         <span className="text-sm text-gray-300 transition-colors group-hover:text-[#e7000b]">
                          thepanchaltraders@gmail.com
+=======
+                        <span className="text-sm text-gray-300 transition-colors group-hover:text-[#d67a26]">
+                          bineshkumar@gmail.com
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
                         </span>
                       </div>
                     </a>
@@ -303,7 +421,11 @@ const Footer = () => {
 
             {/* Bottom Footer */}
             <div className="border-t border-white/10">
+<<<<<<< HEAD
               <div className="mx-auto flex max-w-360 flex-col items-center justify-center gap-3 py-5 text-center md:flex-row md:text-left">
+=======
+              <div className="mx-auto flex max-w-360 flex-col items-center justify-between gap-3 py-5 text-center md:flex-row md:text-left">
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
                 <p className="text-sm text-gray-500">
                   © {new Date().getFullYear()}{" "}
@@ -313,13 +435,20 @@ const Footer = () => {
                   . All Rights Reserved.
                 </p>
 
+<<<<<<< HEAD
                 {/* <p className="text-sm text-gray-500">
                   Designed & Developed with ❤️
                 </p> */}
+=======
+                <p className="text-sm text-gray-500">
+                  Designed & Developed with ❤️
+                </p>
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 
               </div>
             </div>
         </div>
+<<<<<<< HEAD
          <div className="absolute top-0 -left-4 max-[1800px]:hidden">
             <img
               src={assets.imageFooter1}
@@ -335,6 +464,14 @@ const Footer = () => {
               className="w-full h-auto"
             />
           </div>
+=======
+        <div className='absolute top-0 -left-1'>
+          <img src={assets.imageFooter1} alt='shape' className='w-full h-auto' />
+        </div>
+        <div className='absolute top-0 right-0'>
+          <img src={assets.imageFooter2} alt='shape' className='w-full h-auto' />
+        </div>
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
          <div className="mt-0 relative z-40">
             <a
               href="#"

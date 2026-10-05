@@ -48,7 +48,11 @@
   },
   {
     id: 5,
+<<<<<<< HEAD
     title: "Hardware Tools",
+=======
+    title: "Hardware",
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
     hindiTitle: "हार्डवेयर",
     description:
       "Door hardware, handles, hinges, tower bolts, screws, tools and adhesives.",
@@ -56,6 +60,7 @@
     buttonText: "View",
      link: "/products/hardware",
   },
+<<<<<<< HEAD
   {
     id: 6,
     title: "Home Appliances",
@@ -66,6 +71,8 @@
     buttonText: "View",
     link: "/products/appliances",
   },
+=======
+>>>>>>> 074ad932a5e145bebc48c8adbe644a5661c9cb80
 ];
 
 export default categories
