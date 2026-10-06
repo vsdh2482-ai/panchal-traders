@@ -52,10 +52,10 @@ Thank you.`;
 
   return (
     <section className="bg-gray-50 px-4 py-6">
-      <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-360 lg:px-8">
 
         {/* Heading */}
-        <div className="mb-5 border border-gray-300 p-5 rounded-md flex items-center justify-between">
+        <div className="mb-5 border border-gray-300 p-5 rounded-md md:flex items-center justify-between">
          <div className="max-w-3xl">
           <h1 className="text-3xl font-semibold text-[#1c3780] mb-2">
             Enquiry List

@@ -35,11 +35,11 @@ const Navbar = () => {
             </div>
             <div>
              
-              <h1 className="text-lg font-extrabold tracking-wide text-[#1c3780] sm:text-xl">
+              <h1 className="text-lg font-extrabold tracking-wide text-[#1c3780] sm:text-xl hidden md:flex">
                 PANCHAL TRADERS
               </h1>
 
-              <p className="mt-0.5 text-sm font-semibold text-red-600">
+              <p className="mt-0.5 text-sm font-semibold text-red-600 hidden md:flex">
                 पांचाल ट्रेडर्स
               </p>
             </div>

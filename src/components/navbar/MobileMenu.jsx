@@ -1,12 +1,14 @@
-
 import { useState } from "react";
 import {
   Menu,
   X,
+  ClipboardList,
 } from "lucide-react";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import MenuLogo from '../../assets/Panchal-Traders.png'
+import MenuLogo from "../../assets/Panchal-Traders.png";
+import { useEnquiry } from "../../context/EnquiryContext";
+
 const navItems = [
   { label: "Home", path: "/" },
   { label: "Products", path: "/products" },
@@ -17,11 +19,14 @@ const navItems = [
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { enquiries } = useEnquiry();
 
   return (
     <div className="lg:hidden">
       {/* Mobile Header Actions */}
       <div className="flex items-center gap-2">
+
+        {/* WhatsApp */}
         <a
           href="https://wa.me/918810580045"
           target="_blank"
@@ -32,6 +37,23 @@ const MobileMenu = () => {
           <IoLogoWhatsapp size={20} />
         </a>
 
+        {/* Enquiry */}
+        <Link
+          to="/enquiry"
+          aria-label="Enquiry"
+          className="relative flex h-10 w-10 items-center justify-center rounded-lg border border-red-500 text-red-600 transition hover:bg-red-50"
+        >
+          <ClipboardList size={20} />
+
+          {/* Enquiry Count */}
+          {enquiries.length > 0 && (
+            <span className="absolute -right-2 -top-2 flex h-5 min-w-5 items-center justify-center rounded-full bg-[#d71929] px-1 text-[10px] font-bold text-white">
+              {enquiries.length}
+            </span>
+          )}
+        </Link>
+
+        {/* Menu Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
@@ -57,9 +79,13 @@ const MobileMenu = () => {
         }`}
       >
         {/* Menu Header */}
-        <div className="flex items-center justify-between border-b border-gray-100 px-5 py-2 bg-[#1c3780]">
-          <h2 className="text-lg border-2 rounded-full border-white">
-           <img src={MenuLogo} alt="Logo" className="w-10" />
+        <div className="flex items-center justify-between border-b border-gray-100 bg-[#1c3780] px-5 py-2">
+          <h2 className="rounded-full border-2 border-white text-lg">
+            <img
+              src={MenuLogo}
+              alt="Panchal Traders Logo"
+              className="w-10"
+            />
           </h2>
 
           <button
@@ -78,40 +104,15 @@ const MobileMenu = () => {
               key={item.path}
               to={item.path}
               onClick={() => setIsOpen(false)}
-              className={`rounded-lg px-4 py-3 font-semibold text-[#171d2d] transition hover:bg-[#edf2fa] hover:text-[#1c3780]`}
+              className="rounded-lg px-4 py-3 font-semibold text-[#171d2d] transition hover:bg-[#edf2fa] hover:text-[#1c3780]"
             >
               {item.label}
             </Link>
           ))}
         </nav>
-
-        {/* Bottom Actions */}
-        {/* <div className="mx-4 border-t border-gray-100 pt-4">
-          <div className="flex flex-col gap-2">
-            <button className="flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 px-3 py-3 text-sm font-semibold">
-              <ClipboardList size={18} />
-              Enquiry
-
-              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#d71929] text-xs text-white">
-                1
-              </span>
-            </button>
-
-            <a
-              href="https://wa.me/918810580045"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#0da34f] px-3 py-3 text-sm font-semibold text-white"
-            >
-              <MessageCircle size={18} />
-              WhatsApp
-            </a>
-          </div>
-        </div> */}
       </div>
     </div>
   );
 };
 
 export default MobileMenu;
-
