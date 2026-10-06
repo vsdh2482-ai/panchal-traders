@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
 
         {/* ================= MAIN FOOTER ================= */}
-        <div className="mx-auto max-w-360 py-16">
+        <div className="mx-auto max-w-360 md:py-16">
           <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr_1.2fr]">
 
             {/* ================= COMPANY ================= */}

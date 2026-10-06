@@ -67,20 +67,20 @@ Message:
       <section className="relative overflow-hidden bg-[#172f72]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(245,189,50,0.18),transparent_35%)]" />
 
-        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div className="relative mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-20">
           <div className="max-w-3xl">
             <span className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white">
               Contact Panchal Traders
             </span>
 
-            <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-5xl">
+            <h1 className="text-2xl font-semibold leading-tight text-white sm:text-3xl lg:text-4xl">
               Let&apos;s Talk About Your
               <span className="block text-[#e7000b]">
                 Material Requirements
               </span>
             </h1>
 
-            <p className="mt-6 max-w-2xl text-base leading-7 text-white/75 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-base leading-7 text-white/75 sm:text-lg hidden md:flex">
               Looking for plumbing, paints, electrical, sanitary or hardware
               materials? Get in touch with Panchal Traders for product
               information, availability and best price enquiries.
@@ -90,7 +90,7 @@ Message:
       </section>
 
      
-      <section className="py-16 sm:py-20">
+      <section className="py-8 sm:py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
           <div className="grid gap-8 lg:grid-cols-12">
@@ -103,7 +103,7 @@ Message:
                   Get In Touch
                 </span>
 
-                <h2 className="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">
+                <h2 className="mt-3 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-3xl">
                   We&apos;re Here to Help
                 </h2>
 
@@ -229,7 +229,7 @@ Message:
                     Send Enquiry
                   </span>
 
-                  <h2 className="mt-2 text-3xl font-bold text-slate-900">
+                  <h2 className="mt-2 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-3xl">
                     Tell Us What You Need
                   </h2>
 
@@ -367,7 +367,7 @@ Message:
       </section>
 
       {/* ================= MAP ================= */}
-      <section className="pb-16 sm:pb-20">
+      <section className="pb-8 sm:pb-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
           <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-lg">
@@ -420,7 +420,7 @@ Message:
       <section className="bg-[#172f72]">
         <div className="mx-auto max-w-7xl px-4 py-14 text-center sm:px-6 lg:px-8">
 
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">
+          <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl lg:text-3xl">
             Need the Best Price for Your Materials?
           </h2>
 

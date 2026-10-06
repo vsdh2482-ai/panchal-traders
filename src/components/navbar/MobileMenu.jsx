@@ -1,11 +1,10 @@
 
 import { useState } from "react";
 import {
-  ClipboardList,
   Menu,
-  MessageCircle,
   X,
 } from "lucide-react";
+import { IoLogoWhatsapp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import MenuLogo from '../../assets/Panchal-Traders.png'
 const navItems = [
@@ -30,7 +29,7 @@ const MobileMenu = () => {
           aria-label="WhatsApp"
           className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#0da34f] text-white"
         >
-          <MessageCircle size={20} />
+          <IoLogoWhatsapp size={20} />
         </a>
 
         <button

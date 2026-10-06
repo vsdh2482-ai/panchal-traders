@@ -302,11 +302,9 @@ Please share the best wholesale price and availability.
 
           {/* Heading */}
           <div className="mb-10 text-center">
-            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[#1c4594]">
-              Wholesale Enquiry
-            </span>
+            <div className="mb-3 flex items-center justify-center gap-3"><span className="h-0.5 w-10 rounded-full bg-red-800"></span><span className="text-sm font-semibold uppercase tracking-[0.2em] text-red-800">Wholesale Enquiry</span><span className="h-0.5 w-10 rounded-full bg-red-800"></span></div>
 
-            <h2 className="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-3xl">
               Select Your Product Category
             </h2>
 

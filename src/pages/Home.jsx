@@ -7,6 +7,8 @@ import AboutUs from "../components/aboutus/AboutUs";
 
 import { useLanguage } from "../context/LanguageContext";
 import translations from "../data/translations";
+import FAQSection from "../components/faqs/FAQSection";
+import RequestBulk from "../components/requestbulk/RequestBulk";
 
 const Home = () => {
   const { language } = useLanguage();
@@ -20,6 +22,8 @@ const Home = () => {
       <OurCategories t={t} />
       <ShopByBrand t={t} />
       <AboutUs t={t} />
+      <RequestBulk/>
+      <FAQSection/>
     </>
   );
 };

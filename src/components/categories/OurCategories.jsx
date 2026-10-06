@@ -19,11 +19,11 @@ const OurCategories = ({t}) => {
                 <span className="h-0.5 w-10 rounded-full bg-red-800"></span>
                 </div>
 
-                <h1 className="text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl">
+                <h1 className="text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-3xl">
                     {t.title}
                 </h1>
 
-                <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-gray-500 sm:text-lg">
+                <p className="mt-1.5 text-sm text-gray-500">
                   {t.titleparagraph}
                 </p>
             </div>
@@ -62,7 +62,7 @@ const OurCategories = ({t}) => {
                     </Link>
 
                   {/* Description */}
-                  <p className="mt-3 flex-1 text-[17px] leading-6 text-gray-600">
+                  <p className="mt-3 flex-1 text-[16px] leading-6 text-gray-600">
                     {description}
                   </p>
 

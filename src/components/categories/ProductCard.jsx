@@ -5,7 +5,9 @@ import {
   PackageCheck,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import {useEnquiry} from '../../context/EnquiryContext';
 const ProductCard = ({ product }) => {
+  const { enquiries, addEnquiry } = useEnquiry();
   return (
    <div className="group overflow-hidden rounded-2xl border border-gray-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl">
   {/* Product Image */}
@@ -99,12 +101,22 @@ const ProductCard = ({ product }) => {
           </div>
 
           {/* Enquiry */}
-          <button
+          {/* <button
             type="button"
             className="mt-2 flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-[12px] font-semibold text-gray-700 transition hover:border-red-500 hover:bg-red-50 hover:text-red-600"
           >
             <Plus size={18} />
             Enquiry
+          </button> */}
+          <button
+            type="button"
+            onClick={() => addEnquiry(product)}
+            className="mt-2 flex w-full items-center cursor-pointer justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-[12px] font-semibold text-gray-700 transition hover:border-red-500 hover:bg-red-50 hover:text-red-600"
+          >
+            <Plus size={18} />
+            {enquiries.some((item) => item.id === product.id)
+              ? "Added to Enquiry"
+              : "Enquiry"}
           </button>
         </>
       );

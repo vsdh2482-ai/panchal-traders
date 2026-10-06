@@ -35,9 +35,10 @@ const HeroSection = ({ t }) => {
             </div>
 
             {/* Main Title */}
-            <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
+            <h3 className="text-lg font-semibold leading-[1.05] tracking-tight sm:text-lg lg:text-2xl uppercase mb-3 text-gray-200">
               {t?.mainTitle}
-            </h1>
+            </h3>
+            <h1 className="text-3xl font-semibold tracking-wide leading-[1.05] text-gray-200 sm:text-6xl lg:text-5xl">Hardware, Electrical & Plumbing in Khetasarai Jaunpur</h1>
 
             {/* Hero Title */}
             <div className="mt-4 md:mt-7">

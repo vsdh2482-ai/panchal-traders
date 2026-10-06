@@ -26,14 +26,14 @@ const AboutUs = () => {
     <section className="overflow-hidden bg-[#f8fafc] py-6 sm:py-8 lg:py-10">
       <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
 
-        <div className="grid items-center gap-3 lg:grid-cols-2 lg:gap-5">
+        <div className="grid items-center gap-3 lg:grid-cols-[4fr_8fr] lg:gap-10">
           <div className="relative mx-auto w-full max-w-150 hidden md:flex">
 
             <div className="grid grid-cols-2 gap-3">
 
               {/* Left Large Image */}
               <div className="pt-20">
-                <div className="h-75 overflow-hidden rounded-2xl sm:h-85">
+                <div className="h-40 overflow-hidden rounded-2xl sm:h-55">
                   <img
                      src={assets.aboutImage}
                     alt="Building material products"
@@ -88,7 +88,7 @@ const AboutUs = () => {
               {/* Right Images */}
               <div className="space-y-3">
 
-                <div className="h-65 overflow-hidden rounded-2xl sm:h-75">
+                <div className="h-40 overflow-hidden rounded-2xl sm:h-55">
                   <img
                     src={assets.aboutImage}
                     alt="Home improvement"
@@ -96,7 +96,7 @@ const AboutUs = () => {
                   />
                 </div>
 
-                <div className="h-65 overflow-hidden rounded-2xl sm:h-75">
+                <div className="h-40 overflow-hidden rounded-2xl sm:h-55">
                   <img
                     src={assets.aboutImage}
                     alt="Construction work"
@@ -118,7 +118,7 @@ const AboutUs = () => {
             </div>
 
             {/* Heading */}
-            <h2 className="max-w-2xl text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-800 sm:text-3xl">
                Your Trusted Partner for Quality 
               <span className="block text-red-600">
                 Building Materials
@@ -126,7 +126,7 @@ const AboutUs = () => {
             </h2>
 
             {/* Description */}
-            <p className="mt-6 max-w-2xl text-[15px] leading-7 text-gray-600 sm:text-base">
+            <p className="mt-6 text-[15px] leading-7 text-gray-600 sm:text-base">
             Panchal Traders is a trusted wholesale and retail supplier of plumbing, paints, electrical, sanitary, and hardware materials in Khetasarai, Jaunpur. We provide a wide range of quality products to meet the needs of homeowners, contractors, builders, plumbers, electricians, and businesses.
             </p>
 

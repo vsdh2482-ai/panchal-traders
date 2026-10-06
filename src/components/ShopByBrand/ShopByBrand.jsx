@@ -22,9 +22,9 @@ const ShopByBrand = ({t}) => {
   return (
     <section className="bg-white py-10 sm:py-12">
       <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
-        <div className="mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <div className="mb-3 flex items-center justify-start gap-3">
+        <div className="mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-center">
+          <div className="text-center">
+            <div className="mb-3 flex items-center justify-center gap-3">
                 <span className="h-0.5 w-10 rounded-full bg-red-800"></span>
                 <span className="text-sm font-semibold uppercase tracking-[0.2em] text-red-800">
                     {t.brandsubtitle}
@@ -41,9 +41,9 @@ const ShopByBrand = ({t}) => {
             </p>
           </div>
 
-          <p className="text-xs text-gray-400">
+          {/* <p className="text-xs text-gray-400">
            {t.whatsappask}
-          </p>
+          </p> */}
         </div>
 
        

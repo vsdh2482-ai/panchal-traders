@@ -14,6 +14,7 @@ import Hardware from "../pages/Hardware";
 import ProductDetails from "../pages/ProductDetails";
 import OurCompany from "../pages/OurCompany";
 import HomeAppliances from "../pages/HomeAppliances";
+import Enquiry from "../pages/Enquiry";
 
 const AppRoutes = () => {
   return (
@@ -31,6 +32,7 @@ const AppRoutes = () => {
         <Route path="/products/hardware" element={<Hardware />}/>
         <Route path="/products/appliances" element={<HomeAppliances/>} />
         <Route path="/products/:category/:slug" element={<ProductDetails />}/>
+        <Route path="/enquiry" element={<Enquiry/>} />
       </Route>
     </Routes>
   );
