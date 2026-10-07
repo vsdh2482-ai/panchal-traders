@@ -389,7 +389,7 @@ Message:
               </div>
 
               <a
-                href="https://maps.app.goo.gl/d214pKoCMaG2kj5V6"
+                href="https://maps.app.goo.gl/oWKVV6t51MspXTK8A?g_st=ic"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#e7000b] px-5 py-3 font-semibold text-white transition hover:bg-[#805b04]"

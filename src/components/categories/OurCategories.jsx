@@ -39,7 +39,7 @@ const OurCategories = ({t}) => {
               >
                 {/* Image */}
                 <Link to={category.link}>
-                  <div className="relative h-85 overflow-hidden">
+                  <div className="relative h-70 md:h-85 overflow-hidden">
                     <img
                       src={category.image}
                       alt={title}
@@ -51,7 +51,7 @@ const OurCategories = ({t}) => {
                 </Link>
 
                 {/* Content */}
-                <div className="flex min-h-45 flex-col p-6">
+                <div className="flex min-h-35 flex-col p-6 bg-white">
 
                   {/* Title */}
                   <Link to={category.link}

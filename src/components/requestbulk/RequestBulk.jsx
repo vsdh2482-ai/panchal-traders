@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const RequestBulk = () => {
   return (
-    <section className="bg-[#1c3780]">
+    <section className="bg-[#1c3780] py-6">
       <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center justify-between gap-8 rounded-3xl p-6 text-center backdrop-blur-sm sm:p-8 lg:flex-row lg:text-left">
+        <div className="flex flex-col items-center justify-between gap-3 rounded-3xl text-center backdrop-blur-sm sm:p-8 lg:flex-row lg:text-left">
 
           {/* Content */}
-          <div className="max-w-3xl">
+          <div className="max-w-360">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm font-semibold text-white">
               <PackageCheck size={18} />
               Wholesale & Bulk Supply

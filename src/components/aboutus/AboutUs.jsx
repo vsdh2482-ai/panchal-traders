@@ -8,19 +8,6 @@ import { assets } from "../../assets/assets";
 import happy from '../../assets/images/smile.png'
 
 const AboutUs = () => {
- 
-  const pointsLeft = [
-    "Quality Products",
-    "Trusted Brands",
-    "Expert Guidance",
-  ];
-
-  const pointsRight = [
-    "Your Space Is Our Inspiration",
-    "Reliable Products & Materials",
-    "Customer Satisfaction",
-  ];
-
 
   return (
     <section className="overflow-hidden bg-[#f8fafc] py-6 sm:py-8 lg:py-10">
@@ -103,7 +90,6 @@ const AboutUs = () => {
                     className="h-full w-full object-cover transition duration-500 hover:scale-105"
                   />
                 </div>
-
               </div>
             </div>
           </div>
@@ -118,71 +104,38 @@ const AboutUs = () => {
             </div>
 
             {/* Heading */}
-            <h2 className="text-2xl font-semibold tracking-tight text-gray-800 sm:text-3xl">
-               Your Trusted Partner for Quality 
-              <span className="block text-red-600">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-700 sm:text-3xl">
+               Your <span className="text-red-600">Trusted Partner</span> for Quality 
+              <span className="block">
                 Building Materials
               </span>
             </h2>
 
             {/* Description */}
-            <p className="mt-6 text-[15px] leading-7 text-gray-600 sm:text-base">
-            Panchal Traders is a trusted wholesale and retail supplier of plumbing, paints, electrical, sanitary, and hardware materials in Khetasarai, Jaunpur. We provide a wide range of quality products to meet the needs of homeowners, contractors, builders, plumbers, electricians, and businesses.
+            <p className="text-red-600 font-semibold mt-3">Wholesale & Retail Trader / Supplier • Best Quality • Best Price • Best Choice</p>
+            <p className="mt-3 text-[15px] leading-7 text-gray-600 sm:text-base">
+           Panchal Traders is a wholesale and retail supplier of hardware, plumbing, sanitaryware, paints, electrical products and home appliances in Khetasarai, Jaunpur, Uttar Pradesh.
+            </p>
+              <p className="mt-3 text-[15px] leading-7 text-gray-600 sm:text-base">
+         We serve homeowners, contractors, plumbers, electricians, retailers, businesses and local customers looking for reliable construction, repair and home-use products.
+            </p>
+              <p className="mt-3 text-[15px] leading-7 text-gray-600 sm:text-base">
+             Our focus is simple: quality products, competitive pricing and dependable service.
             </p>
 
             {/* <p className="mt-3 max-w-2xl text-[15px] leading-7 text-gray-600 sm:text-base">
               {aboutText1}
             </p> */}
-            <div className="mt-7 grid gap-x-8 gap-y-4 sm:grid-cols-2">
-
-              {/* Left */}
-              <div className="space-y-4">
-                {pointsLeft.map((item) => (
-                  <div
-                    key={item}
-                    className="flex items-center gap-2.5"
-                  >
-                    <CheckCircle
-                      size={21}
-                      fill="currentColor"
-                      className="shrink-0 text-red-600"
-                    />
-
-                    <span className="text-sm font-medium text-slate-800">
-                      {item}
-                    </span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Right */}
-              <div className="space-y-4">
-                {pointsRight.map((item) => (
-                  <div
-                    key={item}
-                    className="flex items-center gap-2.5"
-                  >
-                    <CheckCircle
-                      size={21}
-                      fill="currentColor"
-                      className="shrink-0 text-red-600"
-                    />
-
-                    <span className="text-sm font-medium text-slate-800">
-                      {item}
-                    </span>
-                  </div>
-                ))}
-              </div>
-
+            <div className="mt-7">
+              <p className="border border-gray-200 inline-block bg-gray-200 text-[15px] p-3 shadow-md rounded-md"><strong>Address:</strong> Bharti Vidyapeeth, Dobhi Mor, Near State Bank of India, Khetasarai, Jaunpur, Uttar Pradesh - 222139</p>
             </div>
 
             {/* Divider */}
-            <div className="my-8 h-px w-full bg-gray-200" />
+            <div className="my-5 h-px w-full bg-gray-200" />
             <div className="flex flex-wrap gap-12">
 
               <div>
-                <h3 className="text-4xl font-semibold text-blue-950">
+                <h3 className="text-4xl font-semibold text-blue-900">
                   98%
                 </h3>
 
@@ -192,7 +145,7 @@ const AboutUs = () => {
               </div>
 
               <div>
-                <h3 className="text-4xl font-semibold text-blue-950">
+                <h3 className="text-4xl font-semibold text-blue-900">
                   500+
                 </h3>
 
@@ -201,8 +154,8 @@ const AboutUs = () => {
                 </p>
               </div>
 
-              <div>
-                <h3 className="text-4xl font-semibold text-blue-950">
+              <div className="hidden md:flex">
+                <h3 className="text-4xl font-semibold text-blue-900">
                   25+
                 </h3>
 

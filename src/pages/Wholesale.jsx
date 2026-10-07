@@ -730,6 +730,128 @@ Please share the best wholesale price and availability.
           </div>
         </div>
       )}
+       <section className="bg-white py-6 lg:py-10">
+      <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
+        <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-16">
+
+          {/* Left Content */}
+          <div className="lg:col-span-7">
+              <div className="mb-3 flex items-center justify-start gap-3"><span className="h-0.5 w-10 rounded-full bg-red-800"></span><span className="text-sm font-semibold uppercase tracking-[0.2em] text-red-800">About Panchal Traders</span><span className="h-0.5 w-10 rounded-full bg-red-800"></span></div>
+
+            {/* Heading */}
+            <h2 className="max-w-3xl text-3xl font-semibold leading-tight text-gray-900 sm:text-2xl lg:text-3xl">
+              Hardware & Electrical Store in{" "}
+              <span className="text-red-600 block">
+                Khetasarai, Jaunpur
+              </span>
+            </h2>
+
+            {/* Description */}
+            <div className="mt-6 max-w-3xl space-y-5 text-base leading-7 text-gray-600 text-[16px]">
+              <p>
+                Panchal Traders is a trusted hardware, electrical and building
+                material store located in Khetasarai, Jaunpur, Uttar Pradesh.
+                We offer a wide range of products for all your construction,
+                repair and home improvement needs.
+              </p>
+
+              <p>
+                From plumbing materials, sanitaryware, hardware and tools to
+                paints, electrical products and home appliances, we serve
+                homeowners, contractors, plumbers, electricians, retailers and
+                businesses.
+              </p>
+
+              <p>
+                We provide both <strong className="text-gray-900">wholesale</strong>{" "}
+                and <strong className="text-gray-900">retail</strong> products
+                with a focus on quality, competitive pricing and reliable
+                service.
+              </p>
+            </div>
+
+            {/* Features */}
+            <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+              {[
+                "Quality Products",
+                "Wholesale & Retail",
+                "Competitive Prices",
+                "Reliable Service",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="rounded-xl border border-gray-200 bg-gray-50 p-4"
+                >
+                 
+                  <p className="text-sm font-semibold leading-5 text-gray-800">
+                    {item}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Right Card */}
+          <div className="lg:col-span-5">
+            <div className="relative overflow-hidden rounded-3xl bg-[#162556] p-6 shadow-xl sm:p-8">
+
+              {/* Decorative Circle */}
+              <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-primary/20"></div>
+              <div className="absolute -bottom-20 -left-20 h-48 w-48 rounded-full bg-primary/10"></div>
+
+              <div className="relative">
+                <span className="inline-flex rounded-full bg-white/10 px-4 py-2 text-sm font-medium text-white">
+                  Panchal Traders
+                </span>
+
+                <h3 className="mt-6 text-2xl font-bold leading-snug text-white sm:text-3xl">
+                  Everything You Need for
+                  <span className="block text-primary">
+                    Building & Home Improvement
+                  </span>
+                </h3>
+
+                <p className="mt-4 text-sm leading-6 text-gray-300">
+                  Serving Khetasarai and nearby areas with dependable building
+                  materials, hardware, electrical products and more.
+                </p>
+
+                {/* Product Categories */}
+                <div className="mt-8 grid grid-cols-2 gap-3">
+                  {[
+                    "Plumbing",
+                    "Electrical",
+                    "Sanitaryware",
+                    "Hardware",
+                    "Paints",
+                    "Home Appliances",
+                  ].map((category) => (
+                    <div
+                      key={category}
+                      className="rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:bg-white/10"
+                    >
+                      {category}
+                    </div>
+                  ))}
+                </div>
+
+                {/* CTA */}
+                <div className="mt-8">
+                  <a
+                    href="/products"
+                    className="inline-flex items-center rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+                  >
+                    Explore Products
+                    <span className="ml-2">→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
     </>
   );
 };

@@ -5,9 +5,10 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext.jsx';
 import { EnquiryProvider } from './context/EnquiryContext.jsx';
-
+import { HelmetProvider } from "react-helmet-async";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+     <HelmetProvider>
     <BrowserRouter>
     <LanguageProvider>
      <EnquiryProvider>
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
       </EnquiryProvider>
     </LanguageProvider>
     </BrowserRouter>
+    </HelmetProvider>
   </StrictMode>,
 )

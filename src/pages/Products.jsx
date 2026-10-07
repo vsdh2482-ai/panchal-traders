@@ -6,7 +6,7 @@ import {
   categoryBrands,
   products,
 } from "../data/products";
-
+import SEO from '../components/SEO'
 import ProductCard from "../components/categories/ProductCard";
 
 const Products = () => {
@@ -73,8 +73,26 @@ const Products = () => {
     }
   };
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Hardware, Plumbing & Electrical Products",
+    url: "https://panchaltraders.com/products",
+    description:
+      "Explore hardware, plumbing, sanitaryware, paints, electrical products, tools and home appliances at Panchal Traders in Khetasarai, Jaunpur.",
+  };
+
   return (
-    <section className="min-h-screen bg-gray-50 py-8">
+    <>
+     <SEO
+        title="Hardware, Plumbing & Electrical Products in Khetasarai | Panchal Traders"
+        description="Explore hardware, plumbing, sanitaryware, paints, electrical products, tools and home appliances at Panchal Traders in Khetasarai, Jaunpur."
+        canonical="https://panchaltraders.com/products"
+        image="https://panchaltraders.com/images/products-og.jpg"
+        schema={schema}
+      />
+
+      <section className="min-h-screen bg-gray-50 py-8">
       <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
@@ -101,7 +119,7 @@ const Products = () => {
               <button
                 key={item.slug}
                 onClick={() => handleCategoryChange(item.slug)}
-                className={`flex items-center rounded-full border px-4 py-2 text-center text-[12px] font-semibold transition ${
+                className={`flex items-center rounded-full border px-4 py-2 text-center text-[12px] font-semibold text-nowrap transition ${
                   currentCategory === item.slug
                     ? "border-red-500 bg-red-500 text-white shadow-md"
                     : "border-gray-200 bg-white text-gray-700 hover:border-red-400 hover:text-red-500"
@@ -183,6 +201,7 @@ const Products = () => {
         )}
       </div>
     </section>
+    </>
   );
 };
 

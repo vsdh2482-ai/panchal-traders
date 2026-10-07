@@ -35,13 +35,13 @@ const HeroSection = ({ t }) => {
             </div>
 
             {/* Main Title */}
-            <h3 className="text-lg font-semibold leading-[1.05] tracking-tight sm:text-lg lg:text-2xl uppercase mb-3 text-gray-200">
+            <h3 className="text-lg font-semibold leading-[1.05] tracking-tight sm:text-lg lg:text-3xl uppercase mb-3 text-red-400">
               {t?.mainTitle}
             </h3>
             <h1 className="text-3xl font-semibold tracking-wide leading-[1.05] text-gray-200 sm:text-6xl lg:text-5xl">Hardware, Electrical & Plumbing in Khetasarai Jaunpur</h1>
 
             {/* Hero Title */}
-            <div className="mt-4 md:mt-7">
+            <div className="mt-4 md:mt-7 hidden md:flex">
               <h2 className="text-xl font-bold text-white sm:text-2xl">
                 {t?.heroTitle}
               </h2>

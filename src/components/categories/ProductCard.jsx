@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
   return (
    <div className="group overflow-hidden rounded-2xl border border-gray-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl">
   {/* Product Image */}
-  <div className="h-66 overflow-hidden bg-gray-100">
+  <div className="h-60 md:h-66 overflow-hidden bg-gray-100">
     <Link to={product.url}>
     <img
       src={product.image}

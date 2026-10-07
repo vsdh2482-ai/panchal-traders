@@ -91,15 +91,11 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
         </div>
 
-        {/* ================= MAIN FOOTER ================= */}
-        <div className="mx-auto max-w-360 md:py-16">
-          <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr_1.2fr]">
-
-            {/* ================= COMPANY ================= */}
-            <div>
+        <div className="mx-auto max-w-360 pb-6 md:py-16">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
+            <div className="lg:col-span-4">
               <Link
                 to="/"
                 className="mb-6 inline-flex items-center gap-3"
@@ -152,7 +148,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
-                  className="group flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-[#E1306C] hover:bg-gradient-to-tr hover:from-[#F58529] hover:via-[#E1306C] hover:to-[#833AB4] hover:shadow-lg hover:shadow-[#E1306C]/30"
+                  className="group flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-[#E1306C] hover:bg-linear-to-tr hover:from-[#F58529] hover:via-[#E1306C] hover:to-[#833AB4] hover:shadow-lg hover:shadow-[#E1306C]/30"
                 >
                   <FaInstagram
                     size={19}
@@ -180,32 +176,81 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Google Reviews"
-                  className="group flex h-11 items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white hover:shadow-lg"
+                  className="group flex h-11 items-center gap-2 rounded-full border border-white/20 bg-white/10 px-1 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white hover:shadow-lg"
                 >
                   <img
                     src={googleReview}
                     alt="Google Reviews"
-                    className="h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                    size={10}
+                    className="h-5 w-8.5 object-contain transition-transform duration-300 group-hover:scale-105"
                   />
-
-                  <span className="text-xs font-semibold text-white transition-colors duration-300 group-hover:text-[#172f72]">
-                    Reviews
-                  </span>
                 </a>
-
               </div>
             </div>
 
-            {/* ================= QUICK LINKS ================= */}
-            <div>
+            <div className="lg:col-span-2">
+              <h3 className="mb-6 text-lg font-semibold text-white">
+                 Categories
+              </h3>
+              <div className="h-1 w-10 bg-[#e7000b]" />
+              <ul className="mt-6 space-y-1">
+                <li>
+                  <Link
+                    to="/products/plumbing"
+                    className="text-sm text-gray-400 transition-colors hover:text-[#d67a26]"
+                  >
+                   Plumbing
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/products/paints"
+                    className="text-sm text-gray-400 transition-colors hover:text-[#e7000b]"
+                  >
+                   Paints
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/products/electrical"
+                    className="text-sm text-gray-400 transition-colors hover:text-[#e7000b]"
+                  >
+                   Electrical
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/products/sanitary"
+                    className="text-sm text-gray-400 transition-colors hover:text-[#e7000b]"
+                  >
+                   Sanitary
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/products/hardware"
+                    className="text-sm text-gray-400 transition-colors hover:text-[#e7000b]"
+                  >
+                   Hardware Tools
+                  </Link>
+                </li>
+                 <li>
+                  <Link
+                    to="/products/appliances"
+                    className="text-sm text-gray-400 transition-colors hover:text-[#e7000b]"
+                  >
+                   Home Appliances
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="lg:col-span-2">
               <h3 className="mb-6 text-lg font-semibold text-white">
                 Quick Links
               </h3>
 
               <div className="h-1 w-10 bg-[#e7000b]" />
-
-              <ul className="mt-6 space-y-3">
-
+              <ul className="mt-6 space-y-1">
                 <li>
                   <Link
                     to="/"
@@ -241,12 +286,10 @@ const Footer = () => {
                     Contact Us
                   </Link>
                 </li>
-
               </ul>
             </div>
 
-            {/* ================= CONTACT ================= */}
-            <div>
+            <div className="lg:col-span-4">
               <h3 className="mb-6 text-lg font-semibold text-white">
                 Contact Us
               </h3>

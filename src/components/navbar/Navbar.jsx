@@ -28,18 +28,18 @@ const Navbar = () => {
         }`}>
         <div className="mx-auto flex h-20 w-full max-w-360 items-center justify-between px-4 sm:px-6 lg:px-8">
           {/* Logo + Company Name */}
-          <a href="/" className="flex items-center gap-3">
+          <a href="/" className="flex items-center gap-2">
           
             <div className="flex h-14 w-14 shrink-0 items-center justify-center text-xl font-bold text-white rounded-full">
              <img src={companyLogo} className="w-60" alt="Company " />
             </div>
             <div>
              
-              <h1 className="text-lg font-extrabold tracking-wide text-[#1c3780] sm:text-xl hidden md:flex">
+              <h1 className="text-sm font-extrabold tracking-wide text-[#1c3780] sm:text-xl">
                 PANCHAL TRADERS
               </h1>
 
-              <p className="mt-0.5 text-sm font-semibold text-red-600 hidden md:flex">
+              <p className="mt-0.5 text-sm font-semibold text-red-600">
                 पांचाल ट्रेडर्स
               </p>
             </div>
