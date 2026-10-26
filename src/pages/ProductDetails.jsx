@@ -16,15 +16,24 @@ import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineQuestionMark } from "react-icons/md";
 
 import { products } from "../data/products";
+<<<<<<< HEAD
 import SEO from "../components/SEO";
 
 const ProductDetails = () => {
   const { category, slug } = useParams();
+=======
+
+const ProductDetails = () => {
+  const { category, slug } = useParams();
+
+  // Find current product
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   const product = products.find((item) => {
     const itemSlug = item.url.split("/").pop();
 
     return item.category === category && itemSlug === slug;
   });
+<<<<<<< HEAD
   const canonical = `https://panchaltraders.com/products/${product.category.toLowerCase()}/${product.slug}`;
   const schema = {
     "@context": "https://schema.org",
@@ -40,6 +49,10 @@ const ProductDetails = () => {
     url: canonical,
   };
 
+=======
+
+  // Product not found
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   if (!product) {
     return (
       <section className="flex min-h-[70vh] items-center justify-center bg-gray-50 px-4">
@@ -86,6 +99,7 @@ const ProductDetails = () => {
     .slice(0, 4);
 
   return (
+<<<<<<< HEAD
     <>
       <SEO
         title={`${product.name} in Khetasarai | Panchal Traders`}
@@ -99,6 +113,16 @@ const ProductDetails = () => {
       <div className="border-b border-gray-200 bg-white">
         <div className="mx-auto max-w-360 px-4 sm:px-6 lg:px-8">
           <div className="flex min-h-13.5 items-center gap-2 overflow-hidden whitespace-nowrap text-sm">
+=======
+    <main className="bg-[#f8fafc]">
+
+      {/* =========================================================
+          BREADCRUMB
+      ========================================================== */}
+      <div className="border-b border-gray-200 bg-white">
+        <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8">
+          <div className="flex min-h-[54px] items-center gap-2 overflow-hidden whitespace-nowrap text-sm">
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
 
             <Link
               to="/"
@@ -497,7 +521,10 @@ const ProductDetails = () => {
       </section>
 
     </main>
+<<<<<<< HEAD
     </>
+=======
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   );
 };
 

@@ -16,6 +16,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 
+<<<<<<< HEAD
 import plumbing from "../assets/images/category/whole-plumbing.webp";
 import paints from "../assets/images/category/whole-paint.webp";
 
@@ -25,6 +26,16 @@ import snatry from "../assets/images/category/snatry.webp";
 import wholehard from "../assets/images/category/whole-hard.webp";
 import applianance from "../assets/images/category/HomeAppliances.webp";
 import SEO from "../components/SEO";
+=======
+import plumbing from "../assets/images/category/whole-plumbing.jpg";
+import paints from "../assets/images/category/whole-paint.jpg";
+
+// Add your images here when available
+import electrical from "../assets/images/category/whole-electrical.jpg";
+import snatry from "../assets/images/category/snatry.jpg";
+import wholehard from "../assets/images/category/whole-hard.jpg";
+import applianance from "../assets/images/category/HomeAppliances.jpg";
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
 
 const Wholesale = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -37,6 +48,7 @@ const Wholesale = () => {
     message: "",
   });
 
+<<<<<<< HEAD
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -51,6 +63,8 @@ const Wholesale = () => {
     },
   };
 
+=======
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   // --------------------------------------------------
   // CATEGORY DATA
   // --------------------------------------------------
@@ -308,6 +322,7 @@ Please share the best wholesale price and availability.
 
   return (
     <>
+<<<<<<< HEAD
      <SEO
         title="Hardware, Plumbing, Electrical Wholesale Supplier in Khetasarai, Jaunpur | Panchal Traders"
         description="Panchal Traders supplies hardware, plumbing, sanitaryware, paints, electrical products and home appliances for retailers, contractors and bulk buyers in Khetasarai, Jaunpur."
@@ -315,6 +330,11 @@ Please share the best wholesale price and availability.
         image="https://panchaltraders.com/images/wholesale-og.jpg"
         schema={schema}
       />
+=======
+      {/* =====================================================
+          CATEGORY SECTION
+      ===================================================== */}
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
 
       <section className="bg-slate-50 px-5 py-16 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-360">
@@ -759,15 +779,22 @@ Please share the best wholesale price and availability.
 
             {/* Heading */}
             <h2 className="max-w-3xl text-3xl font-semibold leading-tight text-gray-900 sm:text-2xl lg:text-3xl">
+<<<<<<< HEAD
               Wholesale Hardware & Building Material {" "}
               <span className="text-red-600 block">
                 Supplier in Khetasarai, Jaunpur
+=======
+              Hardware & Electrical Store in{" "}
+              <span className="text-red-600 block">
+                Khetasarai, Jaunpur
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
               </span>
             </h2>
 
             {/* Description */}
             <div className="mt-6 max-w-3xl space-y-5 text-base leading-7 text-gray-600 text-[16px]">
               <p>
+<<<<<<< HEAD
                 Panchal Traders is a wholesale and retail supplier of hardware, plumbing, sanitaryware, paints, electrical products and home appliances in Khetasarai, Jaunpur.
               </p>
 
@@ -775,6 +802,21 @@ Please share the best wholesale price and availability.
                We cater to contractors, builders, plumbers, electricians, retailers, businesses and bulk buyers looking for products for construction, repair, renovation and household requirements.
               </p>
               <p>Our wholesale supply focuses on competitive pricing, quality products and reliable service for bulk requirements.</p>
+=======
+                Panchal Traders is a trusted hardware, electrical and building
+                material store located in Khetasarai, Jaunpur, Uttar Pradesh.
+                We offer a wide range of products for all your construction,
+                repair and home improvement needs.
+              </p>
+
+              <p>
+                From plumbing materials, sanitaryware, hardware and tools to
+                paints, electrical products and home appliances, we serve
+                homeowners, contractors, plumbers, electricians, retailers and
+                businesses.
+              </p>
+
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
               <p>
                 We provide both <strong className="text-gray-900">wholesale</strong>{" "}
                 and <strong className="text-gray-900">retail</strong> products

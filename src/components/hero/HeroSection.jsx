@@ -2,7 +2,11 @@
 import { ArrowRight, MessageCircle, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
+<<<<<<< HEAD
 import heroProduct from "../../assets/images/panchaltradersBanner.webp";
+=======
+import heroProduct from "../../assets/images/panchaltradersBanner.jpg";
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
 
 const HeroSection = ({ t }) => {
   return (
@@ -38,7 +42,11 @@ const HeroSection = ({ t }) => {
             <h3 className="text-lg font-semibold leading-[1.05] tracking-tight sm:text-lg lg:text-3xl uppercase mb-3 text-red-400">
               {t?.mainTitle}
             </h3>
+<<<<<<< HEAD
             <h1 className="text-3xl font-semibold tracking-wide leading-[1.05] text-gray-200 sm:text-6xl lg:text-5xl">{t?.mainTitle1}</h1>
+=======
+            <h1 className="text-3xl font-semibold tracking-wide leading-[1.05] text-gray-200 sm:text-6xl lg:text-5xl">Hardware, Electrical & Plumbing in Khetasarai Jaunpur</h1>
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
 
             {/* Hero Title */}
             <div className="mt-4 md:mt-7 hidden md:flex">

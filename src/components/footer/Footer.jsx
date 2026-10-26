@@ -262,7 +262,11 @@ const Footer = () => {
 
                 <li>
                   <Link
+<<<<<<< HEAD
                     to="/about"
+=======
+                    to="/our-company"
+>>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
                     className="text-sm text-gray-400 transition-colors hover:text-[#e7000b]"
                   >
                     About Us
