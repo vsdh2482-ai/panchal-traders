@@ -6,11 +6,7 @@ const navItems = [
   { label: "Home", path: "/" },
   { label: "Products", path: "/products" },
   { label: "Wholesale", path: "/wholesale" },
-<<<<<<< HEAD
   { label: "About", path: "/about" },
-=======
-  { label: "About", path: "/our-company" },
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   { label: "Contact", path: "/contact" },
 ];
 

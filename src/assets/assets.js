@@ -1,6 +1,5 @@
 //  import CompanyLogo from "./images/Panchal-Traders.png";
 // import heroImage from "./images/hero.jpg";
-<<<<<<< HEAD
 import aboutImage from "./images/aboutus.webp";
 import aboutImage1 from "./images/about2.webp";
 import aboutImage2 from "./images/about3.webp";
@@ -16,21 +15,6 @@ import imageFooter2 from './images/footer-4.svg';
 // import categoryBg from './images/testimonial-bg.jpg'
 import bgImage from './images/about-bg-1.png'
 // import additional from './images/additional_img01.png'
-=======
-import aboutImage from "./images/aboutus.jpg";
-import electronic from './images/category/cat-electrical-CsQFzspe.jpg';
-
-import hardware from './images/category/cat-hardware-Cd0XWCa2.jpg';
-import paints from './images/category/cat-paints-DudLSNxg.jpg';
-import plumbing from './images/category/cat-plumbing-4Pz2eM3R.jpg';
-import sanitary from './images/category/cat-sanitary-CXLiK4GH.jpg';
-import HomeAppliances from './images/category/HomeAppliances.jpg'
-import imageFooter1 from './images/footer-3.svg';
-import imageFooter2 from './images/footer-4.svg'; 
-import categoryBg from './images/testimonial-bg.jpg'
-import bgImage from './images/about-bg-1.png'
-import additional from './images/additional_img01.png'
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
 import dropBbg from './images/drop-bg.png'
 
 // Plumbing
@@ -119,20 +103,12 @@ export const assets = {
   sanitary,
   imageFooter1,
   imageFooter2,
-<<<<<<< HEAD
   // categoryBg,
   bgImage,
   // additional,
   dropBbg,
 aboutImage1,
 aboutImage2,
-=======
-  categoryBg,
-  bgImage,
-  additional,
-  dropBbg,
-
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   cpvcimg1,
   cpvcimg2,
   cpvcimg3,

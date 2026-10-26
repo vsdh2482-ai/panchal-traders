@@ -77,7 +77,6 @@ const Products = () => {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Hardware, Plumbing & Electrical Products",
-<<<<<<< HEAD
     description:
       "Explore hardware, plumbing, sanitaryware, paints and electrical products at Panchal Traders.",
     url: "https://panchaltraders.com/products",
@@ -86,21 +85,13 @@ const Products = () => {
       name: "Panchal Traders",
       url: "https://panchaltraders.com/",
     },
-=======
-    url: "https://panchaltraders.com/products",
-    description:
-      "Explore hardware, plumbing, sanitaryware, paints, electrical products, tools and home appliances at Panchal Traders in Khetasarai, Jaunpur.",
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   };
 
   return (
     <>
      <SEO
         title="Hardware, Plumbing & Electrical Products in Khetasarai | Panchal Traders"
-<<<<<<< HEAD
        
-=======
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
         description="Explore hardware, plumbing, sanitaryware, paints, electrical products, tools and home appliances at Panchal Traders in Khetasarai, Jaunpur."
         canonical="https://panchaltraders.com/products"
         image="https://panchaltraders.com/images/products-og.jpg"
@@ -142,15 +133,9 @@ const Products = () => {
               >
                 <span>{item.name}</span>
 
-<<<<<<< HEAD
                 {/* <span className="ps-3 text-xs">
                   {item.hindi}
                 </span> */}
-=======
-                <span className="ps-3 text-xs">
-                  {item.hindi}
-                </span>
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
               </button>
             ))}
           </div>

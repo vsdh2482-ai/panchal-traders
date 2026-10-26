@@ -77,11 +77,7 @@ const AboutUs = () => {
 
                 <div className="h-40 overflow-hidden rounded-2xl sm:h-55">
                   <img
-<<<<<<< HEAD
                     src={assets.aboutImage1}
-=======
-                    src={assets.aboutImage}
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
                     alt="Home improvement"
                     className="h-full w-full object-cover transition duration-500 hover:scale-105"
                   />
@@ -89,11 +85,7 @@ const AboutUs = () => {
 
                 <div className="h-40 overflow-hidden rounded-2xl sm:h-55">
                   <img
-<<<<<<< HEAD
                     src={assets.aboutImage2}
-=======
-                    src={assets.aboutImage}
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
                     alt="Construction work"
                     className="h-full w-full object-cover transition duration-500 hover:scale-105"
                   />

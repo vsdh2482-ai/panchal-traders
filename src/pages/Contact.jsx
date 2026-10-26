@@ -9,10 +9,7 @@ import {
   Send,
   CheckCircle,
 } from "lucide-react";
-<<<<<<< HEAD
 import SEO from "../components/SEO";
-=======
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,16 +21,12 @@ const Contact = () => {
   });
 
   const [submitted, setSubmitted] = useState(false);
-<<<<<<< HEAD
    const schema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     name: "Contact Panchal Traders",
     url: "https://panchaltraders.com/contact",
   };
-=======
-
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -74,7 +67,6 @@ Message:
   };
 
   return (
-<<<<<<< HEAD
     <>
       <SEO
         title="Contact Panchal Traders | Hardware Store in Khetasarai, Jaunpur"
@@ -85,8 +77,6 @@ Message:
         schema={schema}
       />
     
-=======
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
     <main className="bg-slate-50">
 
     
@@ -469,10 +459,7 @@ Message:
       </section>
 
     </main>
-<<<<<<< HEAD
     </>
-=======
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   );
 };
 

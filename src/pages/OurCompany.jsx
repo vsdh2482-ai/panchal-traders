@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutUs from '../components/aboutus/AboutUs';
 import Breadcrumb from '../components/breadcrumb/Breadcrumb'
-<<<<<<< HEAD
 import SEO from '../components/SEO';
 const OurCompany = ({t}) => {
    const schema = {
@@ -21,18 +20,11 @@ const OurCompany = ({t}) => {
         schema={schema}
       />
    
-=======
-const OurCompany = ({t}) => {
-  return (
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
     <div>
        <Breadcrumb title={'Panchal Traders'}/>
         <AboutUs/>
     </div>
-<<<<<<< HEAD
      </>
-=======
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
   )
 }
 

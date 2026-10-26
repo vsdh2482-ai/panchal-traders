@@ -18,10 +18,7 @@ const translations = {
     // HERO
     // =========================
     mainTitle:'Panchal Traders',
-<<<<<<< HEAD
     mainTitle1:'Hardware, Electrical & Plumbing in Khetasarai Jaunpur',
-=======
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
     view: "View Products",
     whatsapp:"Ask on WhatsApp",
     callNow:'Call Now',
@@ -152,10 +149,7 @@ const translations = {
     // HERO
     // =========================
     mainTitle:"पांचाल ट्रेडर्स",
-<<<<<<< HEAD
     mainTitle1:'खेतासराय जौनपुर में हार्डवेयर, इलेक्ट्रिकल और प्लंबिंग',
-=======
->>>>>>> 8c74b4382a0b11b4240664281551255b12cf8a97
     view: "प्रोडक्ट्स देखें",
     whatsapp:"WhatsApp पर पूछें",
     callNow:'अब कॉल करें',
